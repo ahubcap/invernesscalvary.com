@@ -148,7 +148,7 @@
 						<img src="/assets/images/staff/ottis.jpg"  style="border: 1px solid #ccc; width: 120px; height: 160px; float: left; margin: 0 10px 10px 0;" />
 						<h3 style="color: #595E7B; margin-bottom: 0;">Ottis Barnett &mdash; <em>Senior Pastor</em></h3>
 						<p>
-							Pastor Ottis Barnett grew up in Central Florida and has been involved in youth ministry since 1996. In September 2000, Pastor Ottis accepted the full-time youth pastor position at Calvary Church. He is an anointed leader who is gifted to lead worship, preach and teach prophetically.  His passion is to see a generation of youth be awakened to who God is, and to see them burn in passion for Him. He and his beautiful wife, Stacey reside in Inverness, Florida with their five children: Mackenzie, Emily, Adin, Reagan, and Asher. In addition to spending time with his family, Ottis also enjoys hunting, fishing, and the outdoors.
+							Pastor Ottis Barnett grew up in Central Florida and has been involved in full-time ministry since 1996. In June of 2016, Pastor Ottis accepted the full-time senior pastor position at Calvary Church. He is an anointed leader who is gifted to lead worship, preach and teach prophetically.  His passion is to see people be awakened to who God is, and to see them burn in passion for Him. He and his beautiful wife, Stacey reside in Inverness, Florida with their five children: Mackenzie, Emily, Adin, Reagan, and Asher. In addition to spending time with his family, Ottis also enjoys hunting, fishing, and the outdoors.
 						</p>
 
 					</div>
