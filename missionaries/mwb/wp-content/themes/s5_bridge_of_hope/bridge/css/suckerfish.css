@@ -1,0 +1,338 @@
+/* MAIN MENU
+----------------------------------------------------------- */
+#s5_navv ul li {
+	margin-left:0px;	}
+
+
+#s5_navv a {
+	cursor:pointer;
+	display:block;
+	float:left;
+	font-size:18px;
+	font-weight:bold;
+	height:50px;
+	line-height:34px;
+	margin-left:1px;
+	margin-top:0;
+	overflow:hidden;
+	padding-left:8px;
+	padding-right:8px;
+	text-decoration:none;
+	text-transform:uppercase;}
+	
+
+#s5_navv a span {
+	display:block;
+	text-transform:none;
+	line-height:8px;
+	font-size:11px;}
+	
+	#s5_navv ul li.active a span, #s5_navv ul li:hover a, #s5_navv ul li.over a {
+		color:#000000;}
+
+#s5_navv li li a {
+	margin-left:0px;
+	line-height:35px;
+	margin-top:0px;}
+
+
+#s5_navv li li a {
+	height: 30px;}
+
+#s5_navv li li {
+     text-align: left;
+     width: 207px; }
+
+	* html #s5_navv li li {
+		 width: 206px; }
+	 
+	* html #s5_navv ul li ul li {
+		width: 210px; }	 
+	 
+
+
+#s5_navv ul li ul li a {
+    font-size:12px; 
+	line-height:28px;
+    font-weight: normal; 
+	margin-left:1px;
+	width:205px;
+	text-transform: uppercase; 
+	background:transparent; }
+	 
+
+
+#s5_navv ul li a {
+    background: none; } 
+
+
+#s5_navv ul li li.lastitem a:hover {
+	background:transparent;
+	color:#FFFFFF; } 
+
+
+#s5_navv ul li span.parent, #s5_navv ul li span.parent:hover  {
+	display:block;
+	height:28px;
+    background:transparent; }		
+
+#s5_navv ul li a.parent:hover, #s5_navv ul li ul li a.parent:hover  {
+	color:#FFFFFF;	
+    background:transparent; }
+
+
+#s5_navv {
+     z-index: 3;}
+
+#s5_navv li li a{
+	background: none;
+	font-weight: normal;
+	padding: 0;
+	text-indent: 18px;
+    z-index: 3;}
+
+#s5_navv, #s5_navv ul {
+	list-style: none;
+	padding:6px 8px 0;}
+	
+	* html #s5_navv, #s5_navv ul {
+		padding:0;}
+		
+	
+	#s5_navv ul {
+		float:left;}
+
+#s5_navv ul ul a {
+	display: block;
+	text-decoration: none;
+	width: 207px;
+	text-transform: none;
+    z-index: 4;}
+
+* html #s5_navv ul ul a {
+	width: 207px;
+}
+
+
+#s5_navv li {
+    float: left;
+    padding: 0;
+	margin-right:1px;
+    background: none;
+    height: 57px;}
+	
+
+#s5_navv li li{
+    float: left;
+    padding: 0;
+    background: none;
+    z-index: 4;
+	height:30px;
+	padding-top:0px;}
+	
+#s5_navv ul li {
+	z-index:2;
+    position: relative;}
+
+#s5_navv li ul {
+	top: 57px;
+	background:#000000;
+	position: absolute;
+	left: -999em;
+	height: auto;
+	width:  208px;
+	border-width: 0;
+	margin: 0;
+	padding: 0;
+    z-index: 77;}
+
+
+
+#s5_navv li ul a {
+	font-weight: bold;
+	color:#FFFFFF;
+    z-index: 3;}
+	
+#s5_navv ul {
+	padding: 0;
+	margin: 0;
+    z-index: 50;}
+
+#s5_navv li ul ul {
+	width:208px;
+	margin: -68px 0 0 207px;
+    z-index: 50;}
+
+* html #s5_navv li ul ul {
+	margin: -46px 0 0 207px;}
+
+
+#s5_navv li:hover ul ul, 
+#s5_navv li:hover ul ul ul,
+#s5_navv li:hover ul ul ul ul,  
+#s5_navv li.sfhover ul ul, 
+#s5_navv li.sfhover ul ul ul, 
+#s5_navv li.sfhover ul ul ul ul {
+	left: -999em;
+        z-index: 50;}
+
+#s5_navv li:hover ul, 
+#s5_navv li li:hover ul, 
+#s5_navv li li li:hover ul, 
+#s5_navv li li li li:hover ul,
+#s5_navv li.sfhover ul, 
+#s5_navv li li.sfhover ul, 
+#s5_navv li li li.sfhover ul,
+#s5_navv li li li li.sfhover ul{
+	left: 0;
+        position: absolute;
+        z-index: 50;}
+
+
+#s5_navv li:hover ul, #s5_navv li.sfhover ul {
+	left: 0;
+	background-position: 0 0;}
+
+
+#s5_navv ul li:hover, #s5_navv ul li.over  {
+	background:transparent;
+	color:#FFFFFF;}
+
+#s5_navv li:hover span a, #s5_navv li.over span a, #s5_fm_ul0 li:hover span a, #s5_fm_ul0 li.over span a {
+	color:#FFFFFF;}
+	
+	#s5_navv ul li:hover ul li span span a, #s5_navv ul li.over ul li span span a{
+	color:#FFFFFF;}
+	
+
+	
+		#s5_navv ul li ul li:hover span span a, #s5_navv ul li ul li.over span span a{
+			color:#FFFFFF;}
+	
+
+
+
+
+#s5_navv ul li.active a {
+	background:transparent url(../images/Shape5_BridgeofHope_menugrad.png) repeat-x scroll left 1pt;
+    color:#000000;}
+
+#s5_navv ul li:hover a, #s5_navv ul li.over a{
+	background:transparent url(../images/Shape5_BridgeofHope_menugrad.png) repeat-x scroll left 1pt;
+    color:#000000;}
+
+	
+	#s5_navv ul li:hover ul li a, #s5_navv ul li.over ul li a{
+		background:transparent; 
+	    color:#FFFFFF;}
+		
+	#s5_navv ul li ul li:hover a, #s5_navv ul li ul li.over a{
+		
+	    color:#FFFFFF;}	
+		
+#s5_navv li.active span.s5_outer_active, #s5_navv span.s5_outer_active:hover, #s5_navv ul li:hover span.s5_outer_active  {
+	background:transparent;
+}
+
+
+#s5_navv ul li span.s5_outer {
+	height:52px;
+	}
+
+	#s5_navv ul li:hover span.s5_outer {
+		height:52px;
+		background:transparent;}
+
+#s5_navv ul li span.s5_outerr {
+	height:52px;
+	width:15px;
+	float:left;}		
+		
+	#s5_navv ul li:hover span.s5_outerr, #s5_navv ul li a.active:hover span.span_active, #s5_navv ul li.active span.s5_outerr  {
+		height:52px;
+		width:15px;
+		float:left;
+		background:transparent;}
+		
+		#s5_navv ul li ul li:hover span.span_active {
+			background:none;}
+
+
+#s5_navv span.span_active, #s5_navv span.span_active:hover {
+	height:53px;
+	width:6px;
+	float:left;
+	background:transparent;
+}
+
+#s5_navv ul li ul li span.span_active, #s5_navv ul li ul li span.span_active:hover {
+	height:29px;}
+
+#s5_navv span.s5_outer_active span, #s5_fm_ul0 span.s5_outer_active span {
+background:transparent;
+}
+
+.s5_outer, .s5_outer_active {
+	display:block;
+	height:32px;
+	float:left;
+}
+
+
+	
+#s5_navv ul li ul li a:hover {
+     font-size:12px; 
+	 line-height:28px;
+     font-weight: normal; 
+	 height:30px;
+	 text-decoration:underline;
+	 width:205px;
+	margin-left:1px;
+	 background:transparent; }
+	 
+#s5_navv a span:hover, #s5_navv li:hover a span, #s5_navv li.active span, #s5_navv li.over a span{
+	color:#000000;
+	background:transparent;} 
+
+	
+#s5_navv ul li li:hover span, #s5_navv ul li li.over span, #s5_fm_ul0 ul li li:hover span, #s5_fm_ul0 ul li li.over span {
+	background:none;
+	color:#FFFFFF;
+	}
+
+#s5_navv ul li li span.span_active, #s5_fm_ul0 ul li li span.span_active {
+	background:none;}	 
+
+#s5_navv ul li ul li {
+	position:relative;
+	z-index:77;}
+	
+/* Rounded menu top/bottoms */
+
+#s5_navv ul li.s5_menutop, #s5_navv ul li.s5_menutop:hover {
+	background:none;
+	height:11px;
+	line-height:25px;
+	width:210px;
+	z-index:4;
+	background:transparent;}
+
+#s5_navv ul li.s5_toparrow, #s5_navv ul li.s5_toparrow:hover, #s5_navv ul li.s5_toparrow {
+	height:19px;
+	margin-bottom:-6px;
+	margin-top:0px;
+	background:none;}
+
+	
+#s5_navv ul li.s5_menubottom, #s5_fm_ul0 ul li.s5_menubottom, #s5_navv ul li.s5_menubottom:hover, #s5_fm_ul0 ul li.s5_menubottom:hover {
+	height:30px;
+	margin-left:0px;
+	line-height:25px;
+	width:208px;
+	z-index:49;}
+	
+
+
+* html #s5_navv ul ul {	
+	padding:1px;
+}

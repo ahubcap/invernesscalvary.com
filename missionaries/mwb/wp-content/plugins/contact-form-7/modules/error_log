@@ -1,0 +1,13 @@
+[20-Jun-2016 00:24:11 America/Detroit] PHP Fatal error:  Call to undefined function add_action() in /home/calvary/public_html/missionaries/mwb/wp-content/plugins/contact-form-7/modules/acceptance.php on line 8
+[20-Jun-2016 00:24:31 America/Detroit] PHP Fatal error:  Call to undefined function add_action() in /home/calvary/public_html/missionaries/mwb/wp-content/plugins/contact-form-7/modules/submit.php on line 8
+[20-Jun-2016 00:24:33 America/Detroit] PHP Fatal error:  Call to undefined function add_action() in /home/calvary/public_html/missionaries/mwb/wp-content/plugins/contact-form-7/modules/text.php on line 12
+[20-Jun-2016 00:24:39 America/Detroit] PHP Fatal error:  Call to undefined function add_action() in /home/calvary/public_html/missionaries/mwb/wp-content/plugins/contact-form-7/modules/textarea.php on line 8
+[20-Jun-2016 00:24:40 America/Detroit] PHP Fatal error:  Call to undefined function wpcf7_add_shortcode() in /home/calvary/public_html/missionaries/mwb/wp-content/plugins/contact-form-7/modules/response.php on line 8
+[20-Jun-2016 00:24:41 America/Detroit] PHP Fatal error:  Call to undefined function add_action() in /home/calvary/public_html/missionaries/mwb/wp-content/plugins/contact-form-7/modules/date.php on line 9
+[20-Jun-2016 00:24:43 America/Detroit] PHP Fatal error:  Call to undefined function add_action() in /home/calvary/public_html/missionaries/mwb/wp-content/plugins/contact-form-7/modules/captcha.php on line 8
+[20-Jun-2016 00:24:49 America/Detroit] PHP Fatal error:  Call to undefined function add_action() in /home/calvary/public_html/missionaries/mwb/wp-content/plugins/contact-form-7/modules/number.php on line 10
+[20-Jun-2016 00:24:51 America/Detroit] PHP Fatal error:  Call to undefined function add_action() in /home/calvary/public_html/missionaries/mwb/wp-content/plugins/contact-form-7/modules/flamingo.php on line 7
+[20-Jun-2016 00:24:56 America/Detroit] PHP Fatal error:  Call to undefined function add_action() in /home/calvary/public_html/missionaries/mwb/wp-content/plugins/contact-form-7/modules/file.php on line 8
+[20-Jun-2016 00:25:00 America/Detroit] PHP Fatal error:  Call to undefined function add_action() in /home/calvary/public_html/missionaries/mwb/wp-content/plugins/contact-form-7/modules/quiz.php on line 8
+[20-Jun-2016 00:25:01 America/Detroit] PHP Fatal error:  Call to undefined function add_action() in /home/calvary/public_html/missionaries/mwb/wp-content/plugins/contact-form-7/modules/select.php on line 8
+[20-Jun-2016 00:25:04 America/Detroit] PHP Fatal error:  Call to undefined function add_action() in /home/calvary/public_html/missionaries/mwb/wp-content/plugins/contact-form-7/modules/count.php on line 8

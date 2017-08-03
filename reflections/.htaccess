@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^reflections\.invernesscalvary\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.reflections\.invernesscalvary\.com$
+RewriteRule ^/?$ "https\:\/\/drive\.google\.com\/folderview\?id\=0B\-5uNYNZH4mVdmF5Z196OUtsVW8\&amp\;usp\=sharing" [R=301,L]
+

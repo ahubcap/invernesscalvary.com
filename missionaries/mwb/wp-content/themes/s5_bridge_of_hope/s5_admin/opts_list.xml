@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<extension>
+	<positions>
+		<position>topleft</position>
+		<position>left</position>
+		<position>topright</position>
+		<!--position>breadcrumb</position-->
+		<position>inset</position>
+		<position>top</position>
+		<position>right</position>
+		<position>debug</position>
+		<position>search</position>
+		<position>advert1</position>
+		<position>advert2</position>
+		<position>advert3</position>
+		<position>advert4</position>
+		<position>advert5</position>
+		<position>advert6</position>
+		<position>contentbottom1</position>
+		<position>contentbottom2</position>
+		<position>contentbottom3</position>
+		<position>user1</position>
+		<position>user2</position>
+		<position>user3</position>
+		<position>user4</position>
+		<position>user5</position>
+		<position>user6</position>
+		<position>user7</position>
+		<position>bottom</position>
+		<position>iphone_top</position>
+		<position>iphone_bottom</position>
+	</positions>
+	<colors>
+		<color>default</color>
+		<color>-h3</color>
+		<color>-mod1</color>
+		<color>-mod2</color>
+		<color>-user1</color>
+		<color>-user2</color>
+		<color>unstyled</color>
+	</colors>
+	<config>
+		<field name="open_fader1" type="openFader" label="General" />
+			<field name="legend1" type="openTab" label="Appearance" />
+				<field name="xml_s5_shadows" type="list" default="1" label="Show Shadows" description="Choose to show or hide the shadows on the top position">
+					<option value="yes">Yes</option>
+					<option value="no">No</option>
+				</field>
+				<field name="xml_s5_backcolor" type="text" default="#FFFFFF" label="Background Color" description="Enter the background color for your site. Enter transparent for none." />
+				<field name="xml_s5_fontcolor" type="text" default="FFFFFF" label="Site Wide Font Color" description="Enter the font color in Hex for the site wide color." />
+				<field name="xml_s5_sitecolor" type="text" default="000000" label="Site Wide Color" description="Enter the site color in Hex for the site wide color for the back of the drop down menu, breadcrumbs, left, right and bottom module positions." />
+				<field name="xml_s5_accordcolor" type="text" default="1E1E1E" label="Menu Colors" description="Enter the Hex color if you are using the S5 acccordion menu." />
+				<field name="xml_s5_highlightcolor" type="text" default="FFF098" label="Sub/Mod Font Color" description="Enter the font color in Hex for the sub menu and intro word module text" />
+				<field name="xml_s5_backimage" type="text" default="" label="Top Horizontal Background" description="Enter the URL to a background image that will repeat horiztonally across your site. Leave blank for none." />
+				<field name="xml_s5_headerback" type="text" default="http://www.shape5.com/demo/bridgeofhope/images/background.jpg" label="Body Background" description="Enter the URL to a background image that will repeat throughout the body of your site. Leave blank for none." />
+				<field name="xml_s5_logourl" type="text" default="" label="Logo Image" description="Enter the URL to a logo image to replace the default one. Leave blank for default." />
+				<field name="xml_s5_mod1" type="text" default="793127" label="-mod1 Back Color" description="Enter the Hex color you would like for the -mod1 widget style background color." />
+				<field name="xml_s5_mod2" type="text" default="333333" label="-mod2 Back Color" description="Enter the Hex color you would like for the -mod2 widget style background color." />
+				<field name="xml_s5_user1" type="text" default="000000" label="-user1 Back Color" description="Enter the Hex color you would like for the -user1 widget style background color." />
+				<field name="xml_s5_user2" type="text" default="141414" label="-user2 Back Color" description="Enter the Hex color you would like for the -user2 widget style background color." />
+			<field name="leg1_close" type="closeTab" />
+
+			<field name="legend2" type="openTab" label="Menu" />
+				<field name="xml_menuname" type="menu" default="mainmenu" label="Menu Name" description="What menu would you like to use for the default default menu?" />
+				<field name="xml_s5_menu_color" type="text" default="2C434B" label="Menu Background Color - Leave Blank For No Color." description="Enter the color of the main menu, the pngs of the template will take care of the rest." />
+				<field name="xml_s5_menu" type="list" default="4" label="Menu Type" description="Choose your desired menu effect from the dropdown list. To hide the menu choose No Menu.">
+					<option value="1">Drop In Menu</option>
+					<option value="3">Fading Menu</option>
+					<option value="4">Scroll Down Menu</option>
+					<option value="2">Suckerfish</option>
+					<option value="5">No Menu</option>
+				</field>
+				<field name="xml_s5_text_menu_1" type="text" default="" label="Text label 1" description="Enter what sub text you would like for the first menu item" />
+				<field name="xml_s5_text_menu_2" type="text" default="" label="Text label 2" description="Enter what sub text you would like for the second menu item" />
+				<field name="xml_s5_text_menu_3" type="text" default="" label="Text label 3" description="Enter what sub text you would like for the third menu item" />
+				<field name="xml_s5_text_menu_4" type="text" default="" label="Text label 4" description="Enter what sub text you would like for the fourth menu item" />
+				<field name="xml_s5_text_menu_5" type="text" default="" label="Text label 5" description="Enter what sub text you would like for the fifth menu item" />
+				<field name="xml_s5_text_menu_6" type="text" default="" label="Text label 6" description="Enter what sub text you would like for the sixth menu item" />
+				<field name="xml_s5_text_menu_7" type="text" default="" label="Text label 7" description="Enter what sub text you would like for the seventh menu item" />
+				<field name="xml_s5_text_menu_8" type="text" default="" label="Text label 8" description="Enter what sub text you would like for the eighth menu item" />
+				<field name="xml_s5_text_menu_9" type="text" default="" label="Text label 9" description="Enter what sub text you would like for the nineth menu item" />
+				<field name="xml_s5_text_menu_10" type="text" default="" label="Text label 10" description="Enter what sub text you would like for the tenth menu item" />
+				<field name="xml_s5_subtext" type="list" default="yes" label="Enable Subtext" description="Choose to enable the sub text on the drop down menu.">
+					<option value="yes">Yes</option>
+					<option value="no">No</option>
+				</field>
+			<field name="leg2_close" type="closeTab" />
+			<field name="legend3" type="openTab" label="Measurements" />
+				<field name="xml_s5_body_width" type="text" default="965px" label="Body Width" description="What width would you like for the website?" />
+				<field name="xml_s5_left_width" type="text" default="200" label="Left Column Width" description="What width in pixels would you like the left column to be?" />
+				<field name="xml_s5_right_width" type="text" default="290" label="Right Column Width" description="What width in pixels would you like the right column to be?" />
+			<field name="leg3_close" type="closeTab" />
+			<field name="legend4" type="openTab" label="Content Area" />
+				<field name="xml_s5_blog_heading" type="text" default="" label="Would You Like A Title On The Main Blog Page?" description="Enter the text to display above your posts on the main blog page." />
+				<field name="xml_s5_frontpage" type="radio" default="yes" label="Would You Like The Content Area Shown On The Frontpage?" description="Choose whether or not to show the content section on the frontpage of the site.">
+					<option value="yes">yes</option>
+					<option value="no">no</option>
+				</field>
+				<field name="xml_s5_show_date" type="radio" default="1" label="Do you want to show the publish date on posts and pages?" description="Choose whether to show the &quot;posted on&quot; date.">
+					<option value="0">None</option>
+					<option value="1">All</option>
+				</field>
+				<field name="xml_s5_show_thumb" type="radio" default="1" label="Do you want the post thumbnails visible?" description="Choose whether to show the &quot;posted on&quot; date. [NOTE: Thumbnails will only show for posts/pages that have one assigned through the &quot;Edit Page/Post&quot; screen]">
+					<option value="0">None</option>
+					<option value="1">All</option>
+				</field>
+				<field name="xml_s5_breadcrumb_toggle" type="radio" default="1" label="Do you want to show the &quot;breadcrumb&quot; for your site?" description=""/>
+					<option value="1">yes</option>
+					<option value="0">no</option>
+				<field name="s5_hide_comments" type="radio" default="0" label="Would you like to hide the comment area?" description="NOTE: This will hide but not disable commenting on your site (Use if you want to hide the &quot;Comments Off&quot; text).">
+					<option value="1">yes</option>
+					<option value="0">no</option>
+				</field>
+			<field name="leg4_close" type="closeTab" />
+		<field name="close_fader1" type="closeFader" />
+
+		<field name="open_fader5" type="openFader" label="Advanced" />
+			<field name="legend20" type="openTab" label="Advanced Options 1" />
+				<field name="xml_s5_login" type="text" default="Login" label="Login Text" description="Enter the text you desire for the Login button.[NOTE: S5 Box Required]" />
+				<field name="xml_s5_facebook" type="text" default="javascript:;" label="Facebook Text" description="Enter the text you desire for the Register button.[NOTE: S5 Box Required]" />
+				<field name="xml_s5_twitter" type="text" default="javascript:;" label="Twitter URL" description="Enter the url you desire for the twitter button." />
+				<field name="xml_s5_rss" type="text" default="javascript:;" label="RSS URL" description="Enter the url you desire for the rss button." />
+				<field name="xml_s5_seourl" type="text" default="" label="Your Site URL if SEO enabled" description="If you turn on SEO URLs and your site loses its CSS formatting and flat out doesn't work enter your full site url here.  Example: http://www.mysite.com" />
+				<field name="xml_s5_tooltips" type="list" default="yes" label="Enable Tooltips?" description="Enable the tooltips feature for your site  NOTE: it is highly recommened to disable if you are not planning to use">
+					<option value="yes">yes</option>
+					<option value="no">no</option>
+				</field>
+				<field name="xml_s5_lytebox" type="list" default="yes" label="Enable Lytebox?" description="Enable the lytebox feature for your images  NOTE: it is highly recommened to disable if you are not planning to use">
+					<option value="yes">yes</option>
+					<option value="no">no</option>
+				</field>
+			<field name="leg20_close" type="closeTab" />
+				<field name="legend99" type="openTab" label="Advanced Options 2" />
+					<field name="s5_widget_context_disable" type="radio" default="0" label="Would you like to disable the S5 Widget Context Options?" description="NOTE: Only do this if you are using the standalone Widget Context plugin &lt;br /&gt; or if you want to see the same widgets on every page of your site."/>
+						<option value="1">yes</option>
+						<option value="0">no</option>
+					<field name="s5_page_links_disable" type="radio" default="0" label="Would you like to disable the S5 Page Links Tool?" description="NOTE: Only do this if you are using the standalone &quot;Page Links To&quot; plugin &lt;br /&gt; or if you have no need to point pages/posts at other targets."/>
+						<option value="1">yes</option>
+						<option value="0">no</option>
+					<field name="s5_page_iinclude_disable" type="radio" default="0" label="Would you like to disable the integrated &quot;iinclude-page&quot; plugin?" description="NOTE: Only do this if you are using the standalone &quot;iinclude page&quot; plugin &lt;br /&gt; or if you have no need to include page/post content in other pages/posts."/>
+						<option value="1">yes</option>
+						<option value="0">no</option>
+					<field name="s5_page_exclude_disable" type="radio" default="0" label="Would you like to disable the integrated &quot;exclude-pages&quot; plugin?" description="NOTE: Only do this if you are using the standalone &quot;exclude pages&quot; plugin &lt;br /&gt; or if you have no need to hide pages/posts from the page list and menus."/>
+						<option value="1">yes</option>
+						<option value="0">no</option>
+					<field name="s5_accordion_disable" type="radio" default="0" label="Would you like to disable the built in version of S5 Accordion Menu?" description=""/>
+						<option value="1">yes</option>
+						<option value="0">no</option>
+					<field name="s5_disable_filters" type="radio" default="1" label="Would you like to enable RAW HTML?" description="NOTE: This will disable the built-in Wordpress &lt;br /&gt; HTML filters that automatically insert HTML tags and tend to break site layouts."/>
+						<option value="1">yes</option>
+						<option value="0">no</option>
+					<field name="demo_mode" type="radio" default="0" label="Would you like to enable Demo Mode?" description="(NOTE: this will enable users to temporarily change the way they see your site &lt;br /&gt;by using URL arguments [such as &quot;?menu=3&quot;])"/>
+						<option value="1">yes</option>
+						<option value="0">no</option>
+				<field name="leg99_close" type="closeTab" />
+		<field name="close_fader5" type="closeFader" />
+	</config>
+</extension>

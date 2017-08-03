@@ -1,0 +1,4 @@
+[04-May-2016 04:54:40 America/Detroit] PHP Fatal error:  Call to undefined function add_action() in /home/calvary/public_html/missionaries/mwb/wp-content/plugins/cyclone-slider-2/cyclone-slider.php on line 42
+[20-Jun-2016 00:32:57 America/Detroit] PHP Fatal error:  Call to undefined function add_action() in /home/calvary/public_html/missionaries/mwb/wp-content/plugins/cyclone-slider-2/cyclone-slider.php on line 42
+[21-Jun-2016 21:26:32 America/Detroit] PHP Fatal error:  Call to undefined function add_action() in /home/calvary/public_html/missionaries/mwb/wp-content/plugins/cyclone-slider-2/cyclone-slider.php on line 42
+[31-Jul-2016 07:49:50 America/Detroit] PHP Fatal error:  Call to undefined function add_action() in /home/calvary/public_html/missionaries/mwb/wp-content/plugins/cyclone-slider-2/cyclone-slider.php on line 42

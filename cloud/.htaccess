@@ -1,0 +1,7 @@
+
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^cloud\.invernesscalvary\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.cloud\.invernesscalvary\.com$
+RewriteRule ^/?$ "http\:\/\/server\.invernesscalvary\.com\/owncloud" [R=301,L]
+

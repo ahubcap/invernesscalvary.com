@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^podcast\.invernesscalvary\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.podcast\.invernesscalvary\.com$
+RewriteRule ^/?$ "https\:\/\/itunes\.apple\.com\/us\/podcast\/calvary\-church\-inverness\-florida\/id1063152449\?mt\=2" [R=301,L]
+

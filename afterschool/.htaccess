@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^afterschool\.invernesscalvary\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.afterschool\.invernesscalvary\.com$
+RewriteRule ^/?$ "https\:\/\/drive\.google\.com\/file\/d\/0B\-5uNYNZH4mVRDFpVExtTE5PekE\/view\?usp\=sharing" [R=301,L]
+

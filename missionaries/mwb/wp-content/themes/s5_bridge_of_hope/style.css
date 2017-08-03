@@ -1,0 +1,259 @@
+/*
+Theme Name: Shape5 Bridge of Hope
+Theme URI: http://shape5.com/
+Description: Bridge of Hope Theme
+Version: 1.0
+Author: Shape5
+*/
+/*All CSS in this file is for Wordpress specific items
+  all S5 CSS can be found in the CSS subfolder in the
+  theme sub-directory
+*/
+
+
+
+/* Custom Code */
+.contentpaneopen {
+    font-family: "Oswald";
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+p {
+margin-top: 0;}
+
+h5, h4, h3, h2, h1{
+margin-bottom:5px;
+padding-left: 5px;
+}
+
+.cycloneslider {z-index:1}
+.entry-utility{ margin: -12px 5px 10px;}
+.wpcf7-submit{
+	background: none repeat scroll 0 0 #000000;
+    border: medium none;
+    color: #ffffff;
+    font-size: 11px;
+    height: 22px;
+    padding: 3px 11px 5px;
+}
+
+div.module-mod1 h3 {
+    padding-bottom: 0!important;}
+    
+.textwidget{
+    margin-left: 5px!important;}
+    
+button.square{
+	letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight:700;
+	background-color: transparent;
+    color: #fff;
+	border-color: #fff;
+	border-style: solid;
+    border-width: 2px;
+    transition: .5s;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-right:10px;
+    margin-left:10px;}
+
+button.square:hover {
+border-color:#c7c7c7;}
+
+button.grey {
+    background: none repeat scroll 0 0 #242424;
+    border: medium none;
+    clear: both;
+    color: lightgray;
+    display: block;
+    float: right;
+    font-weight: 600;
+	margin-bottom: 10px;
+    margin-top: 13px;
+    padding: 3px 5px;
+    cursor:pointer;
+}
+
+.contentheading a{
+    color: #fff098!important;
+}
+
+.s5_daydate {
+    font-size: 38px;
+    font-weight: 400;
+    margin-left: -4px;
+    padding-bottom: 6px;
+}
+
+.s5_yeardate {
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.module div div {
+    padding-bottom: 1px;
+}
+
+.subtext{
+ 	color: lightgray;
+    font-size: 11px;
+    max-width: 277px;
+    margin-top:5px;
+}
+
+.module-mod1{
+	padding: 8px 11px 17px 12px;
+}
+
+.more-link {
+    background: none repeat scroll 0 0 #242424 !important;
+    clear: both;
+    display: block;
+    float: right;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin: 10px 0 10px 10px;
+    padding: 5px 20px;
+    text-transform: uppercase;
+}
+
+.mc-field-group{ margin: 10px 0 !important;}
+
+
+/* WordPress Core */
+.alignnone {margin: 5px 20px 20px 0;}
+.aligncenter, div.aligncenter {display:block;margin: 5px auto 5px auto;}
+.alignright {float:right;margin: 5px 0 20px 20px;}
+.alignleft {float:left;margin: 5px 20px 20px 0;}
+.aligncenter {display: block;margin: 5px auto 5px auto;}
+a img.alignright {float:right;margin: 5px 0 20px 20px;}
+a img.alignnone {margin: 5px 20px 20px 0;}
+a img.alignleft {float:left;margin: 5px 20px 20px 0;}
+a img.aligncenter {display: block;margin-left: auto;margin-right: auto}
+.wp-caption {background: #fff;border: 1px solid #f0f0f0;max-width: 96%;padding: 5px 3px 10px;text-align: center;}
+.wp-caption.alignnone {margin: 5px 20px 20px 0;}
+.wp-caption.alignleft {margin: 5px 20px 20px 0;}
+.wp-caption.alignright {margin: 5px 0 20px 20px;}
+.wp-caption img {border: 0 none;height: auto;margin:0;max-width: 98.5%;padding:0;width: auto;}
+.wp-caption p.wp-caption-text {font-size:11px;line-height:17px;margin:0;padding:0 4px 5px;}
+/* End WP Core */
+
+
+.screen-reader-text, s5c ul span.s5_outerr, ul li ul span.s5_outerr{
+	display:none
+}
+
+#s5_topgradsearch #s {
+	border-color: #D7D7D7 #BABABA #9C9C9C;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 1em;
+    margin: 4px;
+    padding: 1px 5px;
+	border: medium none;
+    width: 225px;
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    color: #FFFFFF;
+	content:"Search The Site...";
+}
+
+#s5_topgradsearch #searchsubmit {display:none;}
+
+
+
+#s5_bottommenu ul li {
+    background: none repeat scroll 0 0 transparent;
+}
+
+.s5_lrtab_inner {
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-o-transform: rotate(270deg);
+	font-size:15px;
+	font-weight:bold;
+	position:absolute;
+	right:0;
+	font-family:helvetica;}
+
+
+/** Widget Preview Blocks **/
+.mod-preview-info {
+    background-color: white;
+    border: 1px solid black;
+    color: red;
+    opacity: 0.8;
+    padding: 2px 4px;
+    position: absolute;
+	min-height:25px;
+	text-transform:none;
+}
+
+.mod-preview-wrapper {
+    background-color: #EEEEEE;
+    border: 1px dotted black;
+    color: #770000;
+    opacity: 0.5;
+	min-height:30px;
+}
+/** End Widget Preview Blocks **/
+
+div#nav-above {
+	padding-bottom: 18px;}
+
+div#nav-below {
+    clear: both;
+    display: block;
+    padding-top: 14px;}
+
+div.entry-utility {
+	text-align:left;}
+
+
+#respond {
+padding-top:10px;}
+
+
+#s5_topmod ul li {
+    background: none repeat scroll 0 0 transparent;
+    float: left;
+    height: 11px;
+    list-style: none outside none;
+    margin-right: 0;
+    margin-top: 0;
+    padding-bottom: 8px;
+    padding-top: 6px;
+}
+
+#s5_topmod ul li a {
+    background: none repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px;
+    text-shadow: 1px 1px #000000;
+    text-transform: uppercase;
+}
+
+
+
+#s5_topmod ul li a:hover {
+	text-decoration:underline;
+}
+
+#s5_columns_wrap{
+	float:left;
+}
+
+/* Image alignment in content */
+img.alignright {float:right; margin:0 0 1em 1em}
+img.alignleft {float:left; margin:0 1em 1em 0}
+img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+.alignright {float:right; }
+.alignleft {float:left; }
+.aligncenter {display: block; margin-left: auto; margin-right: auto}

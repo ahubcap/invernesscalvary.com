@@ -1,0 +1,5 @@
+[04-May-2016 04:57:32 America/Detroit] PHP Fatal error:  Class 'CycloneSlider_WpAdminSubPage' not found in /home/calvary/public_html/missionaries/mwb/wp-content/plugins/cyclone-slider-2/src/CycloneSlider/ImportPage.php on line 5
+[04-May-2016 04:57:34 America/Detroit] PHP Fatal error:  Class 'CycloneSlider_WpAdminSubPage' not found in /home/calvary/public_html/missionaries/mwb/wp-content/plugins/cyclone-slider-2/src/CycloneSlider/ExportPage.php on line 5
+[21-Jun-2016 21:30:05 America/Detroit] PHP Fatal error:  Class 'CycloneSlider_WpAdminSubPage' not found in /home/calvary/public_html/missionaries/mwb/wp-content/plugins/cyclone-slider-2/src/CycloneSlider/ImportPage.php on line 5
+[21-Jun-2016 21:30:06 America/Detroit] PHP Fatal error:  Class 'CycloneSlider_WpAdminSubPage' not found in /home/calvary/public_html/missionaries/mwb/wp-content/plugins/cyclone-slider-2/src/CycloneSlider/ExportPage.php on line 5
+[21-Jun-2016 21:30:16 America/Detroit] PHP Fatal error:  Class 'WP_Widget' not found in /home/calvary/public_html/missionaries/mwb/wp-content/plugins/cyclone-slider-2/src/CycloneSlider/WidgetSlider.php on line 5

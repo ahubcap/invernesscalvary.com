@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<install version="1.5" type="template">
+	<name>bridgeofhope</name>
+	<creationDate>September 2009</creationDate>
+	<author>Shape5.com</author>
+	<copyright>Shape5</copyright>
+	<authorEmail>contact@shape5.com</authorEmail>
+	<authorUrl>http://www.shape5.com</authorUrl>
+	<version>1.5</version>
+	<description><![CDATA[
+	
+	<h1>Shape 5 - Bridge of Hope 2009</h1>
+
+	<br/>
+	<img src="../templates/bridgeofhope/template_thumbnail.png" align="left" hspace="10" style="padding-right:10px;"/>
+	This template is for members of the Shape 5 Joomla Template Club only, it is not free or open to the public domain.  <br /><br />
+	For tutorials and additional information check out:<br /> <a href="http://www.shape5.com/demo/bridgeofhope">Bridge of Hope Demo</a>.
+	<br />
+	<br /><a target="_blank" href="http://www.shape5.com">Click here</a> to visit Shape5.com]]></description>
+	<files>
+		<filename>index.html</filename>
+		<filename>index.php</filename>
+		<filename>params.ini</filename>
+		<filename>favicon.ico</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>footer.php</filename>
+		<filename>iestyles.php</filename>
+		<filename>s5_suckerfish.php</filename>
+		<filename>s5_no_moo_menu.php</filename>	
+		<filename>js/IEsuckerfish.js</filename>
+		<filename>js/s5_suckerfish.js</filename>
+		<filename>js/lytebox.js</filename>
+		<filename>js/s5_no_moo_menu.js</filename>
+		<filename>js/s5_textmenu.js</filename>
+		<filename>js/jquery13.js</filename>
+		<filename>js/jquery.no.conflict.js</filename>
+		<filename>js/tooltips.js</filename>
+		<filename>js/s5_fading_no_moo_menu.js</filename>
+		<filename>js/s5_scroll_down_no_moo_menu.js</filename>
+		<filename>html/modules.php</filename>
+		<filename>html/com_search/search/s5_live_search.php</filename>
+		<filename>html/com_search/search/default.php</filename>
+		<filename>html/com_contact/category/default.php</filename>
+		<filename>html/com_contact/contact/default.php</filename>
+		<filename>html/com_content/archive/default.php</filename>
+		<filename>html/com_content/article/default.php</filename>
+		<filename>html/com_content/category/default.php</filename>
+		<filename>html/com_content/category/default_items.php</filename>
+		<filename>html/com_content/frontpage/default.php</filename>
+		<filename>html/com_content/frontpage/default_item.php</filename>
+		<filename>html/com_content/section/default.php</filename>
+		<filename>html/com_newsfeeds/categories/default.php</filename>
+		<filename>html/com_newsfeeds/category/default.php</filename>
+		<filename>html/com_newsfeeds/newsfeed/default.php</filename>
+		<filename>html/com_weblinks/categories/default.php</filename>
+		<filename>html/com_weblinks/category/default.php</filename>
+		<filename>html/com_weblinks/weblink/form.php</filename>
+		<filename>html/com_wrapper/wrapper/default.php</filename>
+		<filename>html/mod_breadcrumbs/default.php</filename>
+	</files>
+	<images>
+		<filename>images/arrow2.png</filename>
+		<filename>images/con_address.png</filename>
+		<filename>images/con_fax.png</filename>			
+		<filename>images/con_info.png</filename>
+		<filename>images/con_tel.png</filename>
+		<filename>images/pdf_button.png</filename>
+		<filename>images/printButton.png</filename>	
+		<filename>images/emailButton.png</filename>
+		<filename>images/indent1.png</filename>		
+		<filename>images/indent2.png</filename>
+		<filename>images/indent3.png</filename>
+		<filename>images/indent4.png</filename>	
+		<filename>images/Shape5_BridgeofHope_bgrad.png</filename>
+		<filename>images/Shape5_BridgeofHope_blshad.png</filename>
+		<filename>images/Shape5_BridgeofHope_breadback.png</filename>
+		<filename>images/Shape5_BridgeofHope_brshad.png</filename>	
+		<filename>images/Shape5_BridgeofHope_facebook.png</filename>
+		<filename>images/Shape5_BridgeofHope_frontpagegrad.png</filename>
+		<filename>images/Shape5_BridgeofHope_h3back.png</filename>	
+		<filename>images/Shape5_BridgeofHope_logo.png</filename>	
+		<filename>images/Shape5_BridgeofHope_lshad.png</filename>
+		<filename>images/Shape5_BridgeofHope_menuback.png</filename>
+		<filename>images/Shape5_BridgeofHope_menubottom.png</filename>	
+		<filename>images/Shape5_BridgeofHope_menugrad.png</filename>
+		<filename>images/Shape5_BridgeofHope_mlshad.png</filename>
+		<filename>images/Shape5_BridgeofHope_mrshad.png</filename>
+		<filename>images/Shape5_BridgeofHope_opacity.png</filename>
+		<filename>images/Shape5_BridgeofHope_rshad.png</filename>			
+		<filename>images/Shape5_BridgeofHope_rss.png</filename>	
+		<filename>images/Shape5_BridgeofHope_search.png</filename>
+		<filename>images/Shape5_BridgeofHope_twitter.png</filename>
+		<filename>images/typography/s5_left_quote.gif</filename>
+		<filename>images/typography/s5_li_number1.gif</filename>
+		<filename>images/typography/s5_li_number2.gif</filename>
+		<filename>images/typography/s5_li_number3.gif</filename>
+		<filename>images/typography/s5_li_number4.gif</filename>
+		<filename>images/typography/s5_li_number5.gif</filename>
+		<filename>images/typography/s5_li_number6.gif</filename>
+		<filename>images/typography/s5_li_number7.gif</filename>
+		<filename>images/typography/s5_li_number8.gif</filename>
+		<filename>images/typography/s5_li_number9.gif</filename>
+		<filename>images/typography/s5_right_quote.gif</filename>
+		<filename>images/typography/s5_ul_bullet.gif</filename>
+		<filename>images/typography/star.gif</filename>
+		<filename>images/typography/s5_bullet_small.png</filename>
+		<filename>images/typography/s5_left_quote.png</filename>
+		<filename>images/typography/s5_li_number1.png</filename>
+		<filename>images/typography/s5_li_number2.png</filename>
+		<filename>images/typography/s5_li_number3.png</filename>
+		<filename>images/typography/s5_li_number4.png</filename>
+		<filename>images/typography/s5_li_number5.png</filename>
+		<filename>images/typography/s5_li_number6.png</filename>
+		<filename>images/typography/s5_li_number7.png</filename>
+		<filename>images/typography/s5_li_number8.png</filename>
+		<filename>images/typography/s5_li_number9.png</filename>
+		<filename>images/typography/s5_right_quote.png</filename>
+		<filename>images/typography/s5_ul_arrow.png</filename>
+		<filename>images/typography/s5_ul_bullet.png</filename>
+		<filename>images/typography/s5_ul_star.png</filename>
+		<filename>images/litebox/close_grey.png</filename>
+		<filename>images/litebox/loading.gif</filename>
+		<filename>images/litebox/next_grey.gif</filename>
+		<filename>images/litebox/pause_grey.png</filename>
+		<filename>images/litebox/play_grey.png</filename>
+		<filename>images/litebox/prev_grey.gif</filename>	
+		<filename>images/litebox/blank.gif</filename>	
+		<filename>template_thumbnail.png</filename>	
+	</images>
+	<css>
+		<filename>css/template.css</filename>
+		<filename>css/template_iphone.css</filename>
+		<filename>css/lytebox.css</filename>
+		<filename>css/suckerfish.css</filename>
+		<filename>css/editor.css</filename>
+	</css>
+<positions>
+		<position>topleft</position>
+		<position>left</position>
+		<position>topright</position>
+		<position>breadcrumb</position>
+		<position>inset</position>
+		<position>top</position>
+		<position>right</position>
+		<position>debug</position>
+		<position>search</position>
+		<position>advert1</position>
+		<position>advert2</position>
+		<position>advert3</position>
+		<position>advert4</position>
+		<position>advert5</position>
+		<position>advert6</position>
+		<position>contentbottom1</position>
+		<position>contentbottom2</position>
+		<position>contentbottom3</position>
+		<position>user1</position>
+		<position>user2</position>
+		<position>user3</position>
+		<position>user4</position>
+		<position>user5</position>
+		<position>user6</position>
+		<position>user7</position>
+		<position>bottom</position>	
+		<position>iphone_top</position>
+		<position>iphone_bottom</position>
+	</positions>
+<params>
+		<param name="spacer1" type="spacer" default="Make sure to hover your mouse over each title in this column for a full description of what each field does." />
+		<param name="xml_menuname" type="menu" default="mainmenu" label="Menu Name" description="What menu would you like to use for the default default menu?" />
+		<param name="xml_s5_text_menu_1" type="text" default="Go Back Home" label="Text label 1" description="Enter what sub text you would like for the first menu item" />
+		<param name="xml_s5_text_menu_2" type="text" default="Three Menu Systems" label="Text label 2" description="Enter what sub text you would like for the second menu item" />
+		<param name="xml_s5_text_menu_3" type="text" default="See Whats Included" label="Text label 3" description="Enter what sub text you would like for the third menu item" />
+		<param name="xml_s5_text_menu_4" type="text" default="Default Joomla" label="Text label 4" description="Enter what sub text you would like for the fourth menu item" />
+		<param name="xml_s5_text_menu_5" type="text" default="Get Help Here" label="Text label 5" description="Enter what sub text you would like for the fifth menu item" />
+		<param name="xml_s5_text_menu_6" type="text" default="Spice Up Your Content" label="Text label 6" description="Enter what sub text you would like for the sixth menu item" />
+		<param name="xml_s5_text_menu_7" type="text" default="text7" label="Text label 7" description="Enter what sub text you would like for the seventh menu item" />
+		<param name="xml_s5_text_menu_8" type="text" default="text8" label="Text label 8" description="Enter what sub text you would like for the eighth menu item" />
+		<param name="xml_s5_text_menu_9" type="text" default="text9" label="Text label 9" description="Enter what sub text you would like for the nineth menu item" />
+		<param name="xml_s5_text_menu_10" type="text" default="text10" label="Text label 10" description="Enter what sub text you would like for the tenth menu item" />		
+		<param name="xml_s5_text_menu_10" type="text" default="text10" label="Text label 10" description="Enter what sub text you would like for the tenth menu item" />				
+		<param name="xml_s5_body_width" type="text" default="965px" label="Body Width" description="What width would you like for the website?" />
+		<param name="xml_s5_left_width" type="text" default="200" label="Left Column Width" description="What width in pixels would you like the left column to be?" />
+		<param name="xml_s5_right_width" type="text" default="290" label="Right Column Width" description="What width in pixels would you like the right column to be?" />	
+		<param name="xml_s5_jsmenu" type="list" default="1" label="Effect Script" description="Choose which script you would like to power the drop down menu.">
+			<option value="jq">jQuery</option>
+			<option value="s5">S5 Effects</option>
+		</param>	
+		<param name="xml_s5_menu" type="list" default="1" label="Menu Type" description="Enter in 1 for No-MooMenu, 2 for Suckerfish, 3 for Fading No-Moo, or 4 for Nothing">
+			<option value="1">S5 Drop In No-MooMenu</option>
+			<option value="3">S5 Fading No-MooMenu</option>
+			<option value="4">S5 Scroll Down No-MooMenu</option>
+			<option value="2">Suckerfish</option>
+			<option value="5">No Menu</option>
+		</param>	
+		<param name="xml_s5_subtext" type="list" default="1" label="Enable Subtext" description="Choose to enable the sub text on the drop down menu.">
+			<option value="yes">Yes</option>
+			<option value="no">No</option>
+		</param>	
+		<param name="xml_s5_shadows" type="list" default="1" label="Show Shadows" description="Choose to show or hide the shadows">
+			<option value="yes">Yes</option>
+			<option value="no">No</option>
+		</param>	
+		<param name="xml_s5_fontcolor" type="text" default="FFFFFF" label="Site Wide Font Color" description="Enter the font color in Hex for the site wide color." />
+		<param name="xml_s5_sitecolor" type="text" default="000000" label="Site Wide Color" description="Enter the site color in Hex for the site wide color for the back of the drop down menu, breadcrumbs, left, right and bottom module positions." />		
+		<param name="xml_s5_accordcolor" type="text" default="1E1E1E" label="Menu Colors" description="Enter the Hex color if you are using the S5 acccordion menu." />
+		<param name="xml_s5_highlightcolor" type="text" default="FFF098" label="Sub/Mod Font Color" description="Enter the font color in Hex for the sub menu and intro word module text" />
+		<param name="xml_s5_mod1" type="text" default="793127" label="-mod1 Back Color" description="Enter the Hex color you would like for the -mod1 module suffix background color." />
+		<param name="xml_s5_mod2" type="text" default="333333" label="-mod2 Back Color" description="Enter the Hex color you would like for the -mod2 module suffix background color." />
+		<param name="xml_s5_user1" type="text" default="000000" label="-user1 Back Color" description="Enter the Hex color you would like for the -user1 module suffix background color." />
+		<param name="xml_s5_user2" type="text" default="141414" label="-user2 Back Color" description="Enter the Hex color you would like for the -user2 module suffix background color." />
+		
+		<param name="xml_s5_login" type="text" default="Login" label="Login Text" description="Enter the text you desire for the Login button." />
+		<param name="xml_s5_facebook" type="text" default="javascript:;" label="Facebook Text" description="Enter the text you desire for the Register button." />
+		<param name="xml_s5_twitter" type="text" default="javascript:;" label="Twitter URL" description="Enter the url you desire for the twitter button." />
+		<param name="xml_s5_rss" type="text" default="javascript:;" label="RSS URL" description="Enter the url you desire for the rss button." />
+		<param name="xml_s5_backcolor" type="text" default="#FFFFFF" label="Background Color" description="Enter the URL the background color for your site. Enter transparent for none." />
+
+		<param name="xml_s5_backimage" type="text" default="" label="Top Horizontal Background" description="Enter the URL to a background image that will repeat horiztonally across your site. Leave blank for none." />
+		<param name="xml_s5_headerback" type="text" default="images/background.jpg" label="Body Background" description="Enter the URL to a background image that will repeat throughout the body of your site. Leave blank for none." />
+
+		<param name="xml_s5_seourl" type="text" default="" label="Your Site URL if SEO enabled" description="If you turn on SEO URLs and your site loses its CSS formatting and flat out doesn't work enter your full site url here.  Example: http://www.mysite.com" />
+		<param name="xml_s5_tooltips" type="list" default="yes" label="Enable Tooltips?" description="Enable the tooltips feature for your site  NOTE: it is highly recommened to disable if you are not planning to use">
+			<option value="yes">yes</option>
+			<option value="no">no</option>
+		</param>	
+		<param name="xml_s5_lytebox" type="list" default="yes" label="Enable Lytebox?" description="Enable the lytebox feature for your images  NOTE: it is highly recommened to disable if you are not planning to use">
+			<option value="yes">yes</option>
+			<option value="no">no</option>
+		</param>	
+	
+		
+		</params>
+</install>

@@ -1,0 +1,8 @@
+[19-Dec-2015 17:49:13 America/Detroit] PHP Fatal error:  Call to undefined function s5_get_option() in /home/calvary/public_html/missionaries/mwb/wp-content/themes/s5_bridge_of_hope/s5_admin/params.php on line 4
+[01-Mar-2016 10:58:42 America/Detroit] PHP Fatal error:  Call to undefined function get_bloginfo() in /home/calvary/public_html/missionaries/mwb/wp-content/themes/s5_bridge_of_hope/functions.php on line 10
+[01-Mar-2016 12:15:48 America/Detroit] PHP Fatal error:  Call to undefined function get_bloginfo() in /home/calvary/public_html/missionaries/mwb/wp-content/themes/s5_bridge_of_hope/functions.php on line 10
+[13-Mar-2016 05:46:36 America/Detroit] PHP Fatal error:  Call to undefined function get_bloginfo() in /home/calvary/public_html/missionaries/mwb/wp-content/themes/s5_bridge_of_hope/functions.php on line 10
+[07-Jul-2016 16:42:42 America/Detroit] PHP Fatal error:  Call to undefined function get_bloginfo() in /home/calvary/public_html/missionaries/mwb/wp-content/themes/s5_bridge_of_hope/functions.php on line 10
+[03-Aug-2016 03:04:16 America/Detroit] PHP Fatal error:  Call to undefined function get_bloginfo() in /home/calvary/public_html/missionaries/mwb/wp-content/themes/s5_bridge_of_hope/functions.php on line 10
+[05-Aug-2016 20:31:50 America/Detroit] PHP Fatal error:  Call to undefined function get_bloginfo() in /home/calvary/public_html/missionaries/mwb/wp-content/themes/s5_bridge_of_hope/functions.php on line 10
+[10-Aug-2016 18:48:57 America/Detroit] PHP Fatal error:  Call to undefined function get_bloginfo() in /home/calvary/public_html/missionaries/mwb/wp-content/themes/s5_bridge_of_hope/functions.php on line 10

@@ -1,0 +1,7 @@
+
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^growthtrack\.invernesscalvary\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.growthtrack\.invernesscalvary\.com$
+RewriteRule ^/?$ "https\:\/\/invernesscalvary\.churchcenteronline\.com\/registrations\/events\/5684" [R=301,L]
+

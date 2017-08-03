@@ -1,0 +1,7 @@
+
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^lifegroups\.invernesscalvary\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.lifegroups\.invernesscalvary\.com$
+RewriteRule ^/?$ "https\:\/\/invernesscalvary\.churchcenteronline\.com\/groups\/life\-groups" [R=301,L]
+

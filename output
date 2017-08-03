@@ -1,0 +1,361 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if IE 9]>    <html class="no-js ie9 oldie" lang="en"> <![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+
+
+<head>
+	<meta charset="utf-8" />
+	<meta property="fb:app_id" content="" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta http-equiv="cleartype" content="on" />
+	<meta name="HandheldFriendly" content="True" />
+	<meta name="MobileOptimized" content="320" />
+
+	<title>Calvary Church | Assemblies of God Church in Inverness Florida </title>
+	<meta name="description" content="Calvary Church is an Assemblies of God church in Inverness, Florida. We exist to SHARE the good news of God's word, CARE for the needs of those that God entrusts us with, and PREPARE and equip every believer through discipleship programs.">
+	<meta name="keywords" content="church, inverness, florida, calvary, assemblies, god, christ, jesus, youth, outreach, missions">
+
+	<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+	<meta name="copyright" content="Copyright 2012 Calvary Church http://www.InvernessCalvary.com" />
+	<meta name="language" content="English" />
+	<meta name="revisit-after" content="7 days" />
+	<meta name="robots" content="index, follow" />
+	<meta name="rating" content="general" />
+	<meta name="viewport" content="width=device-width, user-scalable=yes" />
+
+    <!--ICONS-->
+    <link rel="icon" type="image/x-icon" href="/assets/images/browser/favicon.ico" />
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/images/browser/apple-touch-icon-114x114-precomposed.png" /><!--iPhone 4/Retina Display-->
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/images/browser/apple-touch-icon-72x72-precomposed.png" /><!--iPad Gen1-->
+	<link rel="apple-touch-icon-precomposed" href="/assets/images/browser/apple-touch-icon-precomposed.png" /><!--Non-Retina/Android 2.1+-->
+
+	<!--GENERAL ASSETS-->
+	<link rel="stylesheet" href="/assets/css/style.css" type="text/css" charset="utf-8" />
+	<script type="text/javascript" src="/assets/js/lib/modernizr.min.js"></script>
+	<script type="text/javascript" src="/assets/js/lib/ie-media-queries.js"></script>
+	<script type="text/javascript" src="/assets/js/lib/jquery.min.js"></script>
+	<!-- script type="text/javascript" src="/assets/js/lib/jquery.transition.min.js"></script> -->
+	<script type="text/javascript" src="/assets/js/lib/jquery.hoverIntent.minified.js"></script>
+
+	<script type="text/javascript" src="/assets/js/code/docload.js"></script>
+	<script type="text/javascript">
+		var jPage = 'home';
+		var jSubOne = '';
+		var jSubTwo = '';
+		var jSubTre = '';
+	</script>
+
+	<!-- Load jQuery, SimpleModal and Basic JS files -->
+	<script type='text/javascript' src='/assets/js/lib/jquery.simplemodal.js'></script>
+	<link type='text/css' href='/assets/css/modal.css' rel='stylesheet' media='screen' />
+
+	<script type="text/javascript" src="/assets/js/lib/fullcalendar.js"></script>
+	<link rel="stylesheet" href="/assets/css/fullcalendar.css" type="text/css" charset="utf-8" />
+
+	<script type="text/javascript" src="/assets/js/lib/jquery-ui-1.8.21.custom.min.js"></script>
+	<link rel="stylesheet" href="/assets/css/smoothness/jquery-ui-1.8.21.custom.css" type="text/css" charset="utf-8" />
+
+	<script type="text/javascript" src="/assets/js/lib/jquery.mCustomScrollbar.min.js"></script>
+	<script type="text/javascript" src="/assets/js/lib/jquery.mousewheel.min.js"></script>
+	<link rel="stylesheet" href="/assets/css/jquery.mCustomScrollbar.css" type="text/css" charset="utf-8" />
+
+	<script type="text/javascript" src="/assets/js/code/slides.min.jquery.js"></script>
+	<link rel="stylesheet" href="/assets/css/slides.css" type="text/css" charset="utf-8" />
+	<script src="http://www.google.com/jsapi?key=ABQIAAAAIL0BMVucvj87R-HFDh6IahS3uPXALdg0NLqxXgoiNBY3m2_gfxStHkwYHjL0wT-8fBvApuDfCj-aVw" type="text/javascript"></script>
+	<script type="text/javascript">google.load("feeds", "1")</script>
+
+
+
+<!-- Magnific Popup core CSS file -->
+<link rel="stylesheet" href="http://www.invernesscalvary.com/magnific-popup/magnific-popup.css"> 
+
+<!-- jQuery 1.7.2+ or Zepto.js 1.0+ 
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> 
+-->
+<!-- Magnific Popup core JS file -->
+<script src="http://www.invernesscalvary.com/magnific-popup/jquery.magnific-popup.js"></script> 
+
+</head>
+	<body id="home">
+		<div id="calendar-overlay"></div>
+<div id="top_fixed">
+	<div id="top_nav_left"><a href="/">HOME</a> &bull; <a href="/contact/#general">CONTACT</a> &bull; <a href="/get_involved/#donate_to_calvary">GIVE TO CALVARY</a></div>
+	<div id="top_nav_right">SERVICE TIMES &amp; DIRECTIONS</div>
+</div>
+<header id="main_header">
+	<div id="drop_nav">
+		<span id="header_mark"></span>
+		<div id="top_info">
+			<h3>Come Join Us in the Celebration</h3>
+			<p>We would like to invite you to come join us on Sunday for our worship and message. We passionately believe God 
+			has a hope and a future for your life. We want to give you the opportunity to experience God through powerful 
+			worship, relevant Bible teaching and life-changing relationships. So come out to our friendly, relaxed 
+			atmosphere, we would love to see you!</p>
+		</div>
+		<div id="top_map">
+			<a target="_blank" href="http://goo.gl/maps/Y4Gw"><div id="map_canvas"></div></a>
+			<p class="mapLink"><a target="_blank" href="http://goo.gl/maps/Y4Gw">2728 E. Harley St., Inverness, FL 34453 &bull; 352.637.5100</a></p>
+		</div>
+		<div id="top_hours">
+			<p>Sunday Family Worship Celebration <span><b>8:30 & 10:30am</b></span></p>
+			<p>Monday Night Prayer <span><b>5:30pm-7:30pm</b></span></p>
+			<p>Wednesday Night Youth Service <span><b>6:30pm-8:30pm</b></span></p>
+		</div>
+		<span id="tab_click"><a id="home_link" href="/">&nbsp;</a></span>
+		<a class="closeHeader" title="Close"></a>
+	</div>
+</header>
+		<div id="outer_wrapper">
+			<div id="inner_wrapper">
+				<div id="top_logo"></div>
+				<nav>
+					<ul id="home_nav">
+										<li class="top_shelf section subnav"><a class="top_a" href="/im_new">I'M NEW</a>
+					<ul class="drop_01 secondary">
+						<li><a class="hash01" href="/im_new/#whats_calvary_all_about">What's Calvary All About?</a></li>
+						<li><a class="hash02" href="/im_new/#what_can_i_expect">What Can I Expect?</a></li>
+						<li><a class="hash03" href="/im_new/#what_can_my_kids_expect">What Can My Kids Expect?</a></li>
+						<li><a class="hash04" href="/im_new/#when_are_the_services">When Are the Services?</a></li>
+						<li><a class="hash05" href="/im_new/#how_do_i_get_to_calvary">How Do I Get to Calvary?</a></li>
+						<li><a class="hash06" href="/im_new/#meet_our_pastor">Meet Our Pastor</a></li>
+						<li><a class="hash07" href="/im_new/#tour_our_church">Tour Our Church</a></li>
+					</ul>
+				</li>
+						<li class="top_shelf subnav"><a class="top_a" href="/get_involved/">GET INVOLVED</a>
+					<ul class="drop_07 secondary">
+						<li><a class="hash01" href="/get_involved/#come_worship_with_us">Come Worship with Us</a></li>
+						<li><a class="calpop" href="javascript:void();" >Church Calendar</a></li>
+						<li><a class="'.($pagenav=='events'?' current':'').'" target="_self" href="http://www.invernesscalvary.com/resources/blog/events">Special Events<br /></a></li>
+						<li><a class="hash02" href="/get_involved/#become_a_member">Become a Member</a></li>
+						<li><a class="hash03" href="/get_involved/#join_a_ministry">Join a Ministry</a></li>
+						<li><a class="hash04" href="/get_involved/#get_baptized">Get Baptized</a></li>
+						<li><a class="hash05" href="/get_involved/#donate_to_calvary">Donate to Calvary</a></li>
+					</ul>
+				</li>
+						<li class="top_shelf subnav"><a class="top_a" href="/who_we_are/">WHO WE ARE</a>
+					<ul class="drop_03 secondary">
+						<li><a class="hash01" href="/who_we_are/#our_mission">Our Mission &amp; Vision</a></li>
+						<li><a class="hash02" href="/who_we_are/#meet_the_pastor">Meet the Pastor</a></li>
+						<li><a class="hash03" href="/who_we_are/#meet_the_staff">Meet the Staff</a></li>
+						<li><a class="hash04" href="/who_we_are/#tour_the_church">Tour the Church</a></li>
+						<li><a class="hash05" href="/who_we_are/#what_we_believe">What We Believe</a></li>
+					</ul>
+				</li>
+						<li class="top_shelf section"><a class="top_a" href="/ministries/">MINISTRIES</a>
+					<ul class="drop_04 secondary">
+						<li class="subnav"><a href="/ministries/for_kids/"><span>For Kids</span></a>
+							<ul>
+								<li><a class="hash01" href="/ministries/for_kids/#nursery">Nursery</a></li>
+								<li><a class="hash02" href="/ministries/for_kids/#wee_church">Wee-Church</a></li>
+								<li><a class="hash03" href="/ministries/for_kids/#calvary_kids">Calvary Kids</a></li>
+								<li><a class="hash04" href="/ministries/for_kids/#high_point">Life Group Kids</a></li>
+								<!-- <li><a class="hash05" href="/ministries/for_kids/#agape_daycare_and_preschool">Agape Daycare &amp; Preschool</a></li> -->	
+							</ul>
+						</li>
+						<li class="subnav"><a href="/ministries/for_teens/"><span>For Teens</span></a>
+							<ul>
+								<li><a class="hash01" href="/ministries/for_teens/#the_well">The Well - Youth Group</a></li>
+								<li><a class="hash02" href="/ministries/for_teens/#the_furnace">The Furnace - Prayer</a></li>
+								<li><a class="hash03" href="/ministries/for_teens/#youth_small_groups">Youth Small Groups</a></li>
+								<li><a class="hash04" href="/ministries/for_teens/#discipleship">Discipleship</a></li>
+								<li><a class="hash05" href="/ministries/for_teens/#more">MORE</a></li>
+							</ul>
+						</li>
+						<li class="subnav"><a href="/ministries/for_adults/"><span>For Adults</span></a>
+							<ul>
+								<!--li><a class="hash01" href="/ministries/for_adults/#axis_young_adults">Axis Young Adults</a></li-->
+								<li><a class="hash02" href="/ministries/for_adults/#adult_life_group">Life Groups</a></li>
+								<!--li><a class="hash03" href="/ministries/for_adults/#citrus_prayer_group">Citrus Prayer Room</a></li-->
+                                <li><a class="hash03" href="/ministries/for_adults/#calvary_corporate_prayer">Calvary Corporate Prayer</a></li>
+								<li><a class="hash04" href="/ministries/for_adults/#missions">Missions</a></li>
+								<!--li><a class="hash05" href="/ministries/for_adults/#every_home_for_christ">Every Home for Christ</a></li-->
+								<!--li><a class="hash06" href="/ministries/for_adults/#celebrate_freedom">Celebrate Freedom</a></li-->
+								<!--li><a class="hash07" href="/ministries/for_adults/#aa-support-group">AA Support Group</a></li-->
+							</ul>
+						</li>
+						<li class="subnav"><a href="/ministries/serve/"><span>Serve</span></a>
+							<ul class="last">
+								<!--li><a class="hash01" href="/ministries/serve/#every_home_for_christ">Every Home for Christ</a></li-->
+								<li><a class="hash02" href="/ministries/serve/#usher_team">Usher Team</a></li>
+								<li><a class="hash03" href="/ministries/serve/#coffee_and_concessions">Coffee &amp; Concessions</a></li>
+								<li><a class="hash04" href="/ministries/serve/#worship_teams">Worship Teams</a></li>
+								<li><a class="hash05" href="/ministries/serve/#food_pantry">Food Pantry</a></li>
+							</ul>
+						</li>
+								<p>Interested in serving in one of our ministries? <a href="/ministries/">CLICK HERE</a></p>
+					</ul>
+				</li>
+			
+				<li class="top_shelf subnav"><a class="top_a" href="/resources/">RESOURCES</a>
+					<ul class="drop_01 secondary">
+						<li><a class="" href="/resources/blog/">Read Our Blog</a></li>
+						<li><a class="" href="http://invernesscalvary.com/resources/blog/sermon-archive">Audio Sermons</a></li>
+						<li><a class="" target="_self" href="http://www.invernesscalvary.com/resources/blog/videos">Video Library</a></li>
+						<!--li><a class="hash01" href="/resources/#videos_and_photos">Videos &amp; Photos</a></li-->
+						<li><a class="hash02" href="/resources/#member_testimonies">Member Testimonies</a></li>
+						<li><a class="hash03" href="/resources/#our_bookstore">Our Bookstore</a></li>
+						<li><a class="bible" target="_blank" href="http://www.youversion.com/bible/john.1.niv">Online Bible</a></li>
+
+					</ul>
+				</li>
+			
+				<li class="top_shelf subnav"><a class="top_a hashlinks" href="/contact/#general">CONTACT</a>
+					<ul class="drop_06 secondary">
+						<li><a class="hash01" href="/contact/#general">General Inquiries</a></li>
+						<li><a class="hash02" href="/contact/#prayer">Request a Prayer</a></li>
+						<li><a class="hash04 joinlink" href="/contact/#join">I Want to Join a Group</a></li>
+						<li><a class="hash03 servelink" href="/contact/#serve">I Want to Serve</a></li>
+					</ul>
+				</li>
+								</ul>
+					</nav>
+				<div id="slides">
+					<div class="slides_container">
+						<a href="/im_new/#whats_calvary_all_about" style="width: 1023px; height: 411px;"><img src="/assets/images/slide-01.jpg" width="1023" height="411" alt="" /></a>
+						<a href="/resources/blog/events/together-service/" style="width: 1023px; height: 411px;"><img src="/assets/images/TogetherService.jpg" width="1023" height="411" alt="" /></a>
+						<a class="pop-video" href="https://vimeo.com/105698675" style="width: 1023px; height: 411px;"><img src="/assets/images/slider/growth-track.jpg" width="1023" height="411" alt="Growth Track Promo" /></a>
+						<!--a href="/resources/blog/events/renew-2014-calvary-churchs-ladies-retreat/" style="width: 1023px; height: 411px;"><img src="/assets/images/slider/Renew2014WebsiteCoverBanner.jpg" width="1023" height="411" alt="Renew 2014 - Calvary Church Ladies Retreat" /></a-->
+						<!--<a href="/resources/blog/events/"><img src="/assets/images/slider/events.jpeg" width="1023" height="411" alt="Special Events" /></a>-->
+						<a href="/ministries/for_teens/#the_well"><img src="/assets/images/slider/the_well_new.jpg" width="1023" height="411" alt="" /></a>
+						<!--a href="/ministries/for_adults/#axis_young_adults"><img src="/assets/images/slide-03.jpg" width="1023" height="411" alt="" /></a-->
+						<a href="/ministries/for_kids/#calvary_kids"><img src="/assets/images/slide-04.jpg" width="1023" height="411" alt="" /></a>
+						<a href="/ministries/for_adults/#adult_life_group"><img src="/assets/images/slide-05.jpg" width="1023" height="411" alt="" /></a>
+						<a href="/ministries/for_adults/#calvary_corporate_prayer"><img src="/assets/images/PrayerBannerNov2014.jpg" width="1023" height="411" alt="" /></a>
+						</div>
+					</div>
+				<div id="mid_blocks">
+					<div id="ministries_block">
+						<a href="/ministries/">
+							<div id="ministries_pic"></div>
+							</a>
+						<ul>
+							<li><a href="/ministries/for_kids/">Ministries for Kids</a></li>
+							<li><a href="/ministries/for_adults/">Ministries for Adults</a></li>
+							</ul>
+						<ul class="min_ul_02">
+							<li><a href="/ministries/for_teens/">Ministries for Teens</a></li>
+							<li><a href="/ministries/serve/">Ways to Serve</a></li>
+							</ul>
+						</div>
+					<a href="http://invernesscalvary.com/resources/blog/sermon-archive"><div id="audio"></div></a>
+					<a href="/get_involved/"><div id="involved"></div></a>
+					</div>
+				<img id="middiv" src="/assets/images/mid_divider.png" />
+				<div id="bot_blocks">
+					<div id="blog_box" class="backfade">
+						<div class="box_top">
+							<a href="/resources/blog/"><span>READ MORE</span></a>
+							</div>
+						<div id="blog_feed" style="width: 493px;"></div>
+						</div>
+					<div id="event_box" class="backfade">
+						<div class="box_top">
+							<span class="outer">NOV</span>
+							<span class="outer">27</span>
+							<span class="outer"><span id="the_time"></span></span>
+							</div>
+						<div id="agenda">
+							<ul>
+<!--MAIN AGENDA-->
+
+Warning: fopen(/cache/gcal.xml): failed to open stream: No such file or directory in /home/calvary/public_html/index.php on line 77
+<p>Can't write to the cache.</p>
+Warning: simplexml_load_file(http://www.google.com/calendar/feeds/invernesscalvary.com_erkodmt87n8bi4fatcpc1ri0ac%40group.calendar.google.com/public/full?orderby=starttime&singleevents=true&futureevents=true&max-results=3&sortorder=a): failed to open stream: HTTP request failed! HTTP/1.0 403 Forbidden
+ in /home/calvary/public_html/index.php on line 93
+
+Warning: simplexml_load_file(): I/O warning : failed to load external entity "http://www.google.com/calendar/feeds/invernesscalvary.com_erkodmt87n8bi4fatcpc1ri0ac%40group.calendar.google.com/public/full?orderby=starttime&singleevents=true&futureevents=true&max-results=3&sortorder=a" in /home/calvary/public_html/index.php on line 93
+
+Warning: fopen(/cache/gcal_featured.xml): failed to open stream: No such file or directory in /home/calvary/public_html/index.php on line 94
+<p>Can't write to the cache.</p></ul>
+</div>
+</div>
+<div style="clear:both;"></div>
+</div>
+			<footer>
+				<ul class="nav_ul">
+				
+Warning: include(assets/includes/nav.php): failed to open stream: No such file or directory in /home/calvary/public_html/assets/includes/footer.php on line 3
+
+Warning: include(assets/includes/nav.php): failed to open stream: No such file or directory in /home/calvary/public_html/assets/includes/footer.php on line 3
+
+Warning: include(): Failed opening 'assets/includes/nav.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/calvary/public_html/assets/includes/footer.php on line 3
+				
+				<div id="social_nav" style="position: relative;">
+					<div id="twitter_feed">
+						<!-- <a target="_blank" href="https://twitter.com/InvCalvaryFL"><img style="float:right; margin: 25px 25px 4px 4px;" src="/assets/images/twitter_bird_drop.png" /></a> -->
+						<ul id="twitter_update_list"></ul>
+						<a target="_blank" href="https://twitter.com/InvCalvaryFL"><div id="twitter_word"></div></a>
+					</div>
+					<div id="social_icons">
+						<a target="_blank" href="http://www.facebook.com/invernesscalvary"><img src="/assets/images/icon_facebook_over.png" alt="" /></a>
+						<a target="_blank" href="https://twitter.com/InvCalvaryFL"><img src="/assets/images/icon_twit_over.png" alt="" /></a>
+						<a target="_blank" href="/resources/blog/feed/"><img src="/assets/images/icon_rss_over.png" alt="" /></a>
+					</div>
+				</div>
+				<div id="footer_icons">
+					<ul>
+						<li id="icon_join"><a href="/get_involved/#join_a_ministry"><p>JOIN A GROUP</p></a></li>
+						<li id="icon_baptized"><a href="/get_involved/#get_baptized"><p>GET BAPTIZED</p></a></li>
+						<li id="icon_serve"><a href="/ministries/serve/"><p>SERVE</p></a></li>
+						<li id="icon_read"><a href="/resources/#member_testimonies"><p>READ A STORY</p></a></li>
+					</ul>
+					<ul>
+						<li id="icon_tour"><a href="https://me.churchmembershiponline.com/" target="_blank"><p>MEMBER LOGIN</p></a></li>
+						<li id="icon_donate"><a href="/get_involved/#donate_to_calvary"><p>DONATE TO CALVARY</p></a></li>
+						<li id="icon_member"><a href="/get_involved/#become_a_member"><p>BECOME A MEMBER</p></a></li>
+						<li id="icon_listen"><a href="#" class="modal"><p>LISTEN TO A MESSAGE</p></a></li>
+					</ul>
+					<div id="bot_hours" style="font-size:12px;">
+						<p>Sunday Family Worship Celebration <span><b>8:30am & 10:30am</b></span></p>
+						<p>Monday Prayer Room <span><b>5:30pm-7:30pm</b></span></p>
+						<p>Wednesday Youth Group <span><b>6:30pm-8:30pm</b></span></p>
+					</div>
+					<p id="bot_address">2728 E. Harley St., Inverness, FL 34453 &bull; 352.637.5100</p>
+					<a id="footer_logo" href="/" title=""><img src="/assets/images/footer_logo.png" /></a>
+				</div>
+				<div style="clear: both; height: 0;">&nbsp;</div>
+				<div id="copyright">
+					<span><a href="/contact/#general">Contact Us</a></span>Copyright &copy;2014 Calvary Church, All rights reserved. <a href="/privacy_policy.php">Privacy Policy</a><a href="/sitemap.php">Site Map</a>
+				</div>
+				<!--[if lt IE 7 ]>
+					<script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+					<script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+				<![endif]-->
+			</footer>
+			<div id="calendar-wrap" class="offline" style="padding:8px; background:#fff; margin: 0 0 6px 16px;">
+				<a class="modalCloseImg simplemodal-close" title="Close"></a>
+				<iframe id="cal_big" src="https://www.google.com/calendar/embed?showTitle=0&amp;showCalendars=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=44lui3k18nsu6c5sm9knvi80fg%40group.calendar.google.com&amp;color=%23711616&amp;ctz=America%2FNew_York" style=" border-width:0 " width="940" height="630" frameborder="0" scrolling="no"></iframe>
+			</div>
+			<div id="basic-modal-content">
+				<embed width="320" height="397" align="middle" menu="true" loop="true" play="true" src="http://sermonplayer.com/c/invernesscalvary/player.swf" pluginspage="http://www.macromedia.com/go/getflashplayer" flashvars="clientid=5546&amp;rgbval=6194075&amp;alpha=64&amp;by=Date&amp;d=http://sermonplayer.com/" type="application/x-shockwave-flash" wmode="transparent" allowfullscreen="true" allowscriptaccess="always" name="player" quality="high" scale="exactfit">			
+			</div>
+							
+		</div>
+	</div>
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-37525354-1']);
+	  _gaq.push(['_trackPageview']);
+	
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	
+	</script>
+	
+	
+<!-- Initialize Magnific Popup-->	
+	<script type="text/javascript">
+	$(document).ready(function() {
+ 	 $('.pop-video').magnificPopup({type:'iframe'});
+	});
+	</script>
+	
+</body>
+</html>

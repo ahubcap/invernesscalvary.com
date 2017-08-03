@@ -1,0 +1,1814 @@
+03-15-2016 @ 19:32:25 - IPN paypal_ipn_for_wordpress_ipn_forwarding_handler: Array
+(
+    [transaction_subject] => 
+    [txn_type] => web_accept
+    [payment_date] => 16:32:21 Mar 15, 2016 PDT
+    [last_name] => Cassidy
+    [residence_country] => US
+    [pending_reason] => echeck
+    [item_name] => MissionariesWithoutBoundaries
+    [payment_gross] => 250.00
+    [mc_currency] => USD
+    [business] => contact@invernesscalvary.com
+    [payment_type] => echeck
+    [protection_eligibility] => Ineligible
+    [verify_sign] => AIrRPcVJMg81VdLpTd-yfI2IIpi1AiKpyR5FuZhzC6tq3-Nr01EDF0Mc
+    [payer_status] => verified
+    [tax] => 0.00
+    [payer_email] => mactmc96@aol.com
+    [txn_id] => 2RM3259886254290U
+    [quantity] => 0
+    [receiver_email] => contact@invernesscalvary.com
+    [first_name] => Mark
+    [payer_id] => QMXTTAPXDZRG2
+    [receiver_id] => FHQ7X8KGRPVQU
+    [memo] => Nathan Lloyd Jones
+    [item_number] => Missionaries Without Boundaries
+    [payment_status] => Pending
+    [mc_gross] => 250.00
+    [custom] => 
+    [charset] => windows-1252
+    [notify_version] => 3.8
+    [ipn_track_id] => a35ac4d68f95e
+)
+
+03-15-2016 @ 19:32:25 - Checking IPN response is valid via https://www.paypal.com/cgi-bin/webscr...
+03-15-2016 @ 19:32:25 - IPN Request: Array
+(
+    [body] => Array
+        (
+            [cmd] => _notify-validate
+            [transaction_subject] => 
+            [txn_type] => web_accept
+            [payment_date] => 16:32:21 Mar 15, 2016 PDT
+            [last_name] => Cassidy
+            [residence_country] => US
+            [pending_reason] => echeck
+            [item_name] => MissionariesWithoutBoundaries
+            [payment_gross] => 250.00
+            [mc_currency] => USD
+            [business] => contact@invernesscalvary.com
+            [payment_type] => echeck
+            [protection_eligibility] => Ineligible
+            [verify_sign] => AIrRPcVJMg81VdLpTd-yfI2IIpi1AiKpyR5FuZhzC6tq3-Nr01EDF0Mc
+            [payer_status] => verified
+            [tax] => 0.00
+            [payer_email] => mactmc96@aol.com
+            [txn_id] => 2RM3259886254290U
+            [quantity] => 0
+            [receiver_email] => contact@invernesscalvary.com
+            [first_name] => Mark
+            [payer_id] => QMXTTAPXDZRG2
+            [receiver_id] => FHQ7X8KGRPVQU
+            [memo] => Nathan Lloyd Jones
+            [item_number] => Missionaries Without Boundaries
+            [payment_status] => Pending
+            [mc_gross] => 250.00
+            [custom] => 
+            [charset] => windows-1252
+            [notify_version] => 3.8
+            [ipn_track_id] => a35ac4d68f95e
+        )
+
+    [sslverify] => 
+    [timeout] => 60
+    [httpversion] => 1.0.0
+    [compress] => 
+    [decompress] => 
+    [user-agent] => paypal-ipn/
+)
+
+03-15-2016 @ 19:32:26 - IPN Response: Array
+(
+    [headers] => Array
+        (
+            [server] => Apache
+            [x-frame-options] => SAMEORIGIN
+            [paypal-debug-id] => 321ac440174a3
+            [cache-control] => max-age=0, no-cache, no-store, must-revalidate
+            [pragma] => no-cache
+            [content-type] => text/html; charset=UTF-8
+            [dc] => dcg12-origin-www-1.paypal.com
+            [date] => Tue, 15 Mar 2016 23:32:26 GMT
+            [content-length] => 8
+            [connection] => close
+            [set-cookie] => Array
+                (
+                    [0] => cwrClyrK4LoCV1fydGbAxiNL6iG=brViiq4GIb6zRx7bv_dlleS1jooxxQbgA35S_eUWeb6V4QaGzz8zUeyue4B69zXm4iedO8GIbEsW1NHgy4gzPfz2uhxDEsErQxE6nTgHsVwAUp8O9yETHQAuE2kAU2tBJ9jV_nWP_KWxj95NZ8PkStgfPF1SWHH4_5L0SaP-sn3aWhB3LQrH98qYMn7n114bbf4ZbWVuHz8ACOjQ7t8CJdWwCvxXom8yx4Kfu1lNgUY0gvq6Thq3CHzaSgAab1OWcB_-X8SGLRugNMEFEvq6oUlD5EDghhWLxqZ6OygZ8lytqodvxrZomWMgzfjWeX_MjCGCCbQn1WHxJAf402Xgjttui8vqUjKSxCreLTh4kK1qELtKR8xhorBj_Hj6JyjNAuXZpsf3fCDINvdMGOvD0O3wnYfKSNIJnN8E4xeJ13CczTbWZaZFCDACzDK; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [1] => cookie_check=yes; expires=Fri, 13-Mar-2026 23:32:26 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [2] => navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [3] => navlns=0.0; expires=Thu, 15-Mar-2018 23:32:26 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [4] => X-PP-SILOVER=name%3DLIVE11.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D2325473366; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [5] => X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+                    [6] => AKDC=dcg12-origin-www-1.paypal.com; expires=Wed, 16-Mar-2016 00:02:26 GMT; path=/; secure
+                )
+
+            [strict-transport-security] => max-age=63072000
+        )
+
+    [body] => VERIFIED
+    [response] => Array
+        (
+            [code] => 200
+            [message] => OK
+        )
+
+    [cookies] => Array
+        (
+            [0] => WP_Http_Cookie Object
+                (
+                    [name] => cwrClyrK4LoCV1fydGbAxiNL6iG
+                    [value] => brViiq4GIb6zRx7bv_dlleS1jooxxQbgA35S_eUWeb6V4QaGzz8zUeyue4B69zXm4iedO8GIbEsW1NHgy4gzPfz2uhxDEsErQxE6nTgHsVwAUp8O9yETHQAuE2kAU2tBJ9jV_nWP_KWxj95NZ8PkStgfPF1SWHH4_5L0SaP-sn3aWhB3LQrH98qYMn7n114bbf4ZbWVuHz8ACOjQ7t8CJdWwCvxXom8yx4Kfu1lNgUY0gvq6Thq3CHzaSgAab1OWcB_-X8SGLRugNMEFEvq6oUlD5EDghhWLxqZ6OygZ8lytqodvxrZomWMgzfjWeX_MjCGCCbQn1WHxJAf402Xgjttui8vqUjKSxCreLTh4kK1qELtKR8xhorBj_Hj6JyjNAuXZpsf3fCDINvdMGOvD0O3wnYfKSNIJnN8E4xeJ13CczTbWZaZFCDACzDK
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [1] => WP_Http_Cookie Object
+                (
+                    [name] => cookie_check
+                    [value] => yes
+                    [expires] => 1773444746
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [2] => WP_Http_Cookie Object
+                (
+                    [name] => navcmd
+                    [value] => _notify-validate
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [3] => WP_Http_Cookie Object
+                (
+                    [name] => navlns
+                    [value] => 0.0
+                    [expires] => 1521156746
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [4] => WP_Http_Cookie Object
+                (
+                    [name] => X-PP-SILOVER
+                    [value] => name=LIVE11.WEB.1&silo_version=880&app=appdispatcher&TIME=2325473366
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [5] => WP_Http_Cookie Object
+                (
+                    [name] => X-PP-SILOVER
+                    [value] => 
+                    [expires] => 1
+                    [path] => /cgi-bin/
+                    [domain] => www.paypal.com
+                )
+
+            [6] => WP_Http_Cookie Object
+                (
+                    [name] => AKDC
+                    [value] => dcg12-origin-www-1.paypal.com
+                    [expires] => 1458086546
+                    [path] => /
+                    [domain] => www.paypal.com
+                    [secure] => 
+                )
+
+        )
+
+    [filename] => 
+)
+
+03-15-2016 @ 19:32:26 - Received valid response from PayPal
+03-15-2016 @ 19:32:26 - Payment IPN Array: Array
+(
+    [transaction_subject] => 
+    [txn_type] => web_accept
+    [payment_date] => 16:32:21 Mar 15, 2016 PDT
+    [last_name] => Cassidy
+    [residence_country] => US
+    [pending_reason] => echeck
+    [item_name] => MissionariesWithoutBoundaries
+    [payment_gross] => 250.00
+    [mc_currency] => USD
+    [business] => contact@invernesscalvary.com
+    [payment_type] => echeck
+    [protection_eligibility] => Ineligible
+    [verify_sign] => AIrRPcVJMg81VdLpTd-yfI2IIpi1AiKpyR5FuZhzC6tq3-Nr01EDF0Mc
+    [payer_status] => verified
+    [tax] => 0.00
+    [payer_email] => mactmc96@aol.com
+    [txn_id] => 2RM3259886254290U
+    [quantity] => 0
+    [receiver_email] => contact@invernesscalvary.com
+    [first_name] => Mark
+    [payer_id] => QMXTTAPXDZRG2
+    [receiver_id] => FHQ7X8KGRPVQU
+    [memo] => Nathan Lloyd Jones
+    [item_number] => Missionaries Without Boundaries
+    [payment_status] => Pending
+    [mc_gross] => 250.00
+    [custom] => 
+    [charset] => windows-1252
+    [notify_version] => 3.8
+    [ipn_track_id] => a35ac4d68f95e
+)
+
+03-15-2016 @ 19:32:26 - Payment IPN_status: 1
+03-15-2016 @ 19:32:26 - Payment status: Pending
+03-15-2016 @ 19:32:26 - Payment transaction type: web_accept
+03-16-2016 @ 09:17:46 - IPN paypal_ipn_for_wordpress_ipn_forwarding_handler: Array
+(
+    [transaction_subject] => 
+    [payment_date] => 06:17:41 Mar 16, 2016 PDT
+    [txn_type] => web_accept
+    [last_name] => Williams
+    [residence_country] => US
+    [item_name] => MissionariesWithoutBoundaries
+    [payment_gross] => 500.00
+    [mc_currency] => USD
+    [business] => contact@invernesscalvary.com
+    [payment_type] => instant
+    [protection_eligibility] => Ineligible
+    [verify_sign] => AAh-gjn1ENnDuooduWNAFaW4Pdn0AZJtEE0z09efHVXXli-Y5O8Vcivl
+    [payer_status] => verified
+    [tax] => 0.00
+    [payer_email] => Naturaldesignmidwifery@gmail.com
+    [txn_id] => 28238963LY856924W
+    [quantity] => 0
+    [receiver_email] => contact@invernesscalvary.com
+    [first_name] => April
+    [payer_id] => 2AKHSB8HYSEUE
+    [receiver_id] => FHQ7X8KGRPVQU
+    [memo] => Nathan and Rebecca Lloyd-Jones.
+    [item_number] => Missionaries Without Boundaries
+    [payer_business_name] => Natural Design Midwifery
+    [payment_status] => Completed
+    [payment_fee] => 11.30
+    [mc_fee] => 11.30
+    [mc_gross] => 500.00
+    [custom] => 
+    [charset] => windows-1252
+    [notify_version] => 3.8
+    [ipn_track_id] => 3c24922281502
+)
+
+03-16-2016 @ 09:17:46 - Checking IPN response is valid via https://www.paypal.com/cgi-bin/webscr...
+03-16-2016 @ 09:17:46 - IPN Request: Array
+(
+    [body] => Array
+        (
+            [cmd] => _notify-validate
+            [transaction_subject] => 
+            [payment_date] => 06:17:41 Mar 16, 2016 PDT
+            [txn_type] => web_accept
+            [last_name] => Williams
+            [residence_country] => US
+            [item_name] => MissionariesWithoutBoundaries
+            [payment_gross] => 500.00
+            [mc_currency] => USD
+            [business] => contact@invernesscalvary.com
+            [payment_type] => instant
+            [protection_eligibility] => Ineligible
+            [verify_sign] => AAh-gjn1ENnDuooduWNAFaW4Pdn0AZJtEE0z09efHVXXli-Y5O8Vcivl
+            [payer_status] => verified
+            [tax] => 0.00
+            [payer_email] => Naturaldesignmidwifery@gmail.com
+            [txn_id] => 28238963LY856924W
+            [quantity] => 0
+            [receiver_email] => contact@invernesscalvary.com
+            [first_name] => April
+            [payer_id] => 2AKHSB8HYSEUE
+            [receiver_id] => FHQ7X8KGRPVQU
+            [memo] => Nathan and Rebecca Lloyd-Jones.
+            [item_number] => Missionaries Without Boundaries
+            [payer_business_name] => Natural Design Midwifery
+            [payment_status] => Completed
+            [payment_fee] => 11.30
+            [mc_fee] => 11.30
+            [mc_gross] => 500.00
+            [custom] => 
+            [charset] => windows-1252
+            [notify_version] => 3.8
+            [ipn_track_id] => 3c24922281502
+        )
+
+    [sslverify] => 
+    [timeout] => 60
+    [httpversion] => 1.0.0
+    [compress] => 
+    [decompress] => 
+    [user-agent] => paypal-ipn/
+)
+
+03-16-2016 @ 09:17:47 - IPN Response: Array
+(
+    [headers] => Array
+        (
+            [server] => Apache
+            [x-frame-options] => SAMEORIGIN
+            [cache-control] => Array
+                (
+                    [0] => max-age=0, no-cache, no-store, must-revalidate
+                    [1] => max-age=0, no-cache, no-store, must-revalidate
+                )
+
+            [pragma] => Array
+                (
+                    [0] => no-cache
+                    [1] => no-cache
+                )
+
+            [http_x_pp_az_locator] => slcb.slc
+            [paypal-debug-id] => 9cf5c4ec5440
+            [content-type] => text/html; charset=UTF-8
+            [dc] => slc-b-origin-www-2.paypal.com
+            [date] => Wed, 16 Mar 2016 13:17:47 GMT
+            [content-length] => 8
+            [connection] => close
+            [set-cookie] => Array
+                (
+                    [0] => cwrClyrK4LoCV1fydGbAxiNL6iG=-CmApuVJTJE95l6EXNG3KRPRswxJzpPQ6eNgRSjo9pNSV83_JmphWkcemgVS_LfGadJgm3qs3ORMtGDA1uEcLB0QkDUAQ5wVJwgwktXzR8tNzN_-tWEbQAbIm2a_ujpbbRWS85qZUAliAPlwcznuEAu5XXRITTl14SEx7c5nF39G6f308mvlMIRote3K9Dv4o2OEWkavRNtdbOEAqe20VxK38090EeEu0tM9FUPgOZM-YvzsqCWkDzFSl1mpXDkswjqq9Pgfe_tSRWF-Rp48NUj7SF1NKn3VeEnfZijTBYQ5ZtiV_DHkNTDzZHfLMdT87qiYCOolzqLi77VoG-OeGvRsQOCsSyxGM792lbBZaJe4_FirN6J81RvwKSUx5YumfZs5elG0kt8oS1n-VCfBAvRdfNFGOkeNfWbxvdfialwN6HXgn9av_dX8C4G; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [1] => cookie_check=yes; expires=Sat, 14-Mar-2026 13:17:47 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [2] => navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [3] => navlns=0.0; expires=Fri, 16-Mar-2018 13:17:47 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [4] => X-PP-SILOVER=name%3DLIVE6.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D4217170262; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [5] => X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+                    [6] => AKDC=slc-b-origin-www-2.paypal.com; expires=Wed, 16-Mar-2016 13:47:47 GMT; path=/; secure
+                )
+
+            [strict-transport-security] => max-age=63072000
+        )
+
+    [body] => VERIFIED
+    [response] => Array
+        (
+            [code] => 200
+            [message] => OK
+        )
+
+    [cookies] => Array
+        (
+            [0] => WP_Http_Cookie Object
+                (
+                    [name] => cwrClyrK4LoCV1fydGbAxiNL6iG
+                    [value] => -CmApuVJTJE95l6EXNG3KRPRswxJzpPQ6eNgRSjo9pNSV83_JmphWkcemgVS_LfGadJgm3qs3ORMtGDA1uEcLB0QkDUAQ5wVJwgwktXzR8tNzN_-tWEbQAbIm2a_ujpbbRWS85qZUAliAPlwcznuEAu5XXRITTl14SEx7c5nF39G6f308mvlMIRote3K9Dv4o2OEWkavRNtdbOEAqe20VxK38090EeEu0tM9FUPgOZM-YvzsqCWkDzFSl1mpXDkswjqq9Pgfe_tSRWF-Rp48NUj7SF1NKn3VeEnfZijTBYQ5ZtiV_DHkNTDzZHfLMdT87qiYCOolzqLi77VoG-OeGvRsQOCsSyxGM792lbBZaJe4_FirN6J81RvwKSUx5YumfZs5elG0kt8oS1n-VCfBAvRdfNFGOkeNfWbxvdfialwN6HXgn9av_dX8C4G
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [1] => WP_Http_Cookie Object
+                (
+                    [name] => cookie_check
+                    [value] => yes
+                    [expires] => 1773494267
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [2] => WP_Http_Cookie Object
+                (
+                    [name] => navcmd
+                    [value] => _notify-validate
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [3] => WP_Http_Cookie Object
+                (
+                    [name] => navlns
+                    [value] => 0.0
+                    [expires] => 1521206267
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [4] => WP_Http_Cookie Object
+                (
+                    [name] => X-PP-SILOVER
+                    [value] => name=LIVE6.WEB.1&silo_version=880&app=appdispatcher&TIME=4217170262
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [5] => WP_Http_Cookie Object
+                (
+                    [name] => X-PP-SILOVER
+                    [value] => 
+                    [expires] => 1
+                    [path] => /cgi-bin/
+                    [domain] => www.paypal.com
+                )
+
+            [6] => WP_Http_Cookie Object
+                (
+                    [name] => AKDC
+                    [value] => slc-b-origin-www-2.paypal.com
+                    [expires] => 1458136067
+                    [path] => /
+                    [domain] => www.paypal.com
+                    [secure] => 
+                )
+
+        )
+
+    [filename] => 
+)
+
+03-16-2016 @ 09:17:47 - Received valid response from PayPal
+03-16-2016 @ 09:17:47 - Payment IPN Array: Array
+(
+    [transaction_subject] => 
+    [payment_date] => 06:17:41 Mar 16, 2016 PDT
+    [txn_type] => web_accept
+    [last_name] => Williams
+    [residence_country] => US
+    [item_name] => MissionariesWithoutBoundaries
+    [payment_gross] => 500.00
+    [mc_currency] => USD
+    [business] => contact@invernesscalvary.com
+    [payment_type] => instant
+    [protection_eligibility] => Ineligible
+    [verify_sign] => AAh-gjn1ENnDuooduWNAFaW4Pdn0AZJtEE0z09efHVXXli-Y5O8Vcivl
+    [payer_status] => verified
+    [tax] => 0.00
+    [payer_email] => Naturaldesignmidwifery@gmail.com
+    [txn_id] => 28238963LY856924W
+    [quantity] => 0
+    [receiver_email] => contact@invernesscalvary.com
+    [first_name] => April
+    [payer_id] => 2AKHSB8HYSEUE
+    [receiver_id] => FHQ7X8KGRPVQU
+    [memo] => Nathan and Rebecca Lloyd-Jones.
+    [item_number] => Missionaries Without Boundaries
+    [payer_business_name] => Natural Design Midwifery
+    [payment_status] => Completed
+    [payment_fee] => 11.30
+    [mc_fee] => 11.30
+    [mc_gross] => 500.00
+    [custom] => 
+    [charset] => windows-1252
+    [notify_version] => 3.8
+    [ipn_track_id] => 3c24922281502
+)
+
+03-16-2016 @ 09:17:47 - Payment IPN_status: 1
+03-16-2016 @ 09:17:47 - Payment status: Completed
+03-16-2016 @ 09:17:47 - Payment transaction type: web_accept
+03-18-2016 @ 08:07:03 - IPN paypal_ipn_for_wordpress_ipn_forwarding_handler: Array
+(
+    [mc_gross] => 250.00
+    [protection_eligibility] => Ineligible
+    [payer_id] => QMXTTAPXDZRG2
+    [tax] => 0.00
+    [payment_date] => 16:32:21 Mar 15, 2016 PDT
+    [payment_status] => Completed
+    [charset] => windows-1252
+    [first_name] => Mark
+    [mc_fee] => 5.00
+    [notify_version] => 3.8
+    [echeck_time_processed] => 05:06:59 Mar 18, 2016 PDT
+    [custom] => 
+    [payer_status] => verified
+    [business] => contact@invernesscalvary.com
+    [quantity] => 0
+    [verify_sign] => AVFvrroR9BL.LnjR2eCD8c9ZR3asA-mIFGCpuQWEPG1Y1q2TMH3jCmTJ
+    [payer_email] => mactmc96@aol.com
+    [memo] => Nathan Lloyd Jones
+    [txn_id] => 2RM3259886254290U
+    [payment_type] => echeck
+    [last_name] => Cassidy
+    [receiver_email] => contact@invernesscalvary.com
+    [payment_fee] => 5.00
+    [receiver_id] => FHQ7X8KGRPVQU
+    [txn_type] => web_accept
+    [item_name] => MissionariesWithoutBoundaries
+    [mc_currency] => USD
+    [item_number] => Missionaries Without Boundaries
+    [residence_country] => US
+    [handling_amount] => 0.00
+    [transaction_subject] => 
+    [payment_gross] => 250.00
+    [shipping] => 0.00
+    [ipn_track_id] => ba49aed723dda
+)
+
+03-18-2016 @ 08:07:03 - Checking IPN response is valid via https://www.paypal.com/cgi-bin/webscr...
+03-18-2016 @ 08:07:03 - IPN Request: Array
+(
+    [body] => Array
+        (
+            [cmd] => _notify-validate
+            [mc_gross] => 250.00
+            [protection_eligibility] => Ineligible
+            [payer_id] => QMXTTAPXDZRG2
+            [tax] => 0.00
+            [payment_date] => 16:32:21 Mar 15, 2016 PDT
+            [payment_status] => Completed
+            [charset] => windows-1252
+            [first_name] => Mark
+            [mc_fee] => 5.00
+            [notify_version] => 3.8
+            [echeck_time_processed] => 05:06:59 Mar 18, 2016 PDT
+            [custom] => 
+            [payer_status] => verified
+            [business] => contact@invernesscalvary.com
+            [quantity] => 0
+            [verify_sign] => AVFvrroR9BL.LnjR2eCD8c9ZR3asA-mIFGCpuQWEPG1Y1q2TMH3jCmTJ
+            [payer_email] => mactmc96@aol.com
+            [memo] => Nathan Lloyd Jones
+            [txn_id] => 2RM3259886254290U
+            [payment_type] => echeck
+            [last_name] => Cassidy
+            [receiver_email] => contact@invernesscalvary.com
+            [payment_fee] => 5.00
+            [receiver_id] => FHQ7X8KGRPVQU
+            [txn_type] => web_accept
+            [item_name] => MissionariesWithoutBoundaries
+            [mc_currency] => USD
+            [item_number] => Missionaries Without Boundaries
+            [residence_country] => US
+            [handling_amount] => 0.00
+            [transaction_subject] => 
+            [payment_gross] => 250.00
+            [shipping] => 0.00
+            [ipn_track_id] => ba49aed723dda
+        )
+
+    [sslverify] => 
+    [timeout] => 60
+    [httpversion] => 1.0.0
+    [compress] => 
+    [decompress] => 
+    [user-agent] => paypal-ipn/
+)
+
+03-18-2016 @ 08:07:03 - IPN Response: Array
+(
+    [headers] => Array
+        (
+            [server] => Apache
+            [x-frame-options] => SAMEORIGIN
+            [paypal-debug-id] => 16d6df215a3a4
+            [cache-control] => max-age=0, no-cache, no-store, must-revalidate
+            [pragma] => no-cache
+            [content-type] => text/html; charset=UTF-8
+            [dc] => slc-a-origin-www-1.paypal.com
+            [date] => Fri, 18 Mar 2016 12:07:03 GMT
+            [content-length] => 8
+            [connection] => close
+            [set-cookie] => Array
+                (
+                    [0] => cwrClyrK4LoCV1fydGbAxiNL6iG=Ik2jM0CnLy3VjtqfIE_c5FMt0TtAyUFYv8Wx8p5YyHomIrp_7tn72Y62jEabhv3NyRV8N6GwEsi9ayO_hpn4OBk16GIVEXHr8-MfnJPPtsj4wE5M2jFnVbJYmXjTYEfoL5V9vAj4p2CYeRHHLQh1GvOpWyDPFdRbuAOrmrRDVVNe4QgSbKHCSz4_xeILQ4A3FQYXG3HnY99fV1f6d7dduO9wYUaF7peb7278nIUzwFalkTCtxMetyNcOUQR-x9Uokc5VGfjWy-6GkbKeD8pCJUGqWt65CHamNu3xG76eZ3a42yX_aXuAyHzt-vZnuhA7k0_T6Zj06bVnvrAm7Hs-87rBLRXbPpHsv2oiSw3jt4gKoo8gblehWn49EqOlVwwi-Aehp9cc9DWOlfItRrM5T2EWuskKHhPxohFBDnTEDC7flNKndv_pvLkw-6G; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [1] => cookie_check=yes; expires=Mon, 16-Mar-2026 12:07:03 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [2] => navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [3] => navlns=0.0; expires=Sun, 18-Mar-2018 12:07:03 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [4] => X-PP-SILOVER=name%3DLIVE5.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D1743776598%26HTTP_X_PP_AZ_LOCATOR%3D; Expires=Fri, Mar 18 12:37:03 2016; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [5] => X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+                    [6] => AKDC=slc-a-origin-www-1.paypal.com; expires=Fri, 18-Mar-2016 12:37:03 GMT; path=/; secure
+                )
+
+            [strict-transport-security] => max-age=63072000
+        )
+
+    [body] => VERIFIED
+    [response] => Array
+        (
+            [code] => 200
+            [message] => OK
+        )
+
+    [cookies] => Array
+        (
+            [0] => WP_Http_Cookie Object
+                (
+                    [name] => cwrClyrK4LoCV1fydGbAxiNL6iG
+                    [value] => Ik2jM0CnLy3VjtqfIE_c5FMt0TtAyUFYv8Wx8p5YyHomIrp_7tn72Y62jEabhv3NyRV8N6GwEsi9ayO_hpn4OBk16GIVEXHr8-MfnJPPtsj4wE5M2jFnVbJYmXjTYEfoL5V9vAj4p2CYeRHHLQh1GvOpWyDPFdRbuAOrmrRDVVNe4QgSbKHCSz4_xeILQ4A3FQYXG3HnY99fV1f6d7dduO9wYUaF7peb7278nIUzwFalkTCtxMetyNcOUQR-x9Uokc5VGfjWy-6GkbKeD8pCJUGqWt65CHamNu3xG76eZ3a42yX_aXuAyHzt-vZnuhA7k0_T6Zj06bVnvrAm7Hs-87rBLRXbPpHsv2oiSw3jt4gKoo8gblehWn49EqOlVwwi-Aehp9cc9DWOlfItRrM5T2EWuskKHhPxohFBDnTEDC7flNKndv_pvLkw-6G
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [1] => WP_Http_Cookie Object
+                (
+                    [name] => cookie_check
+                    [value] => yes
+                    [expires] => 1773662823
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [2] => WP_Http_Cookie Object
+                (
+                    [name] => navcmd
+                    [value] => _notify-validate
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [3] => WP_Http_Cookie Object
+                (
+                    [name] => navlns
+                    [value] => 0.0
+                    [expires] => 1521374823
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [4] => WP_Http_Cookie Object
+                (
+                    [name] => X-PP-SILOVER
+                    [value] => name=LIVE5.WEB.1&silo_version=880&app=appdispatcher&TIME=1743776598&HTTP_X_PP_AZ_LOCATOR=
+                    [expires] => 1458304623
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [5] => WP_Http_Cookie Object
+                (
+                    [name] => X-PP-SILOVER
+                    [value] => 
+                    [expires] => 1
+                    [path] => /cgi-bin/
+                    [domain] => www.paypal.com
+                )
+
+            [6] => WP_Http_Cookie Object
+                (
+                    [name] => AKDC
+                    [value] => slc-a-origin-www-1.paypal.com
+                    [expires] => 1458304623
+                    [path] => /
+                    [domain] => www.paypal.com
+                    [secure] => 
+                )
+
+        )
+
+    [filename] => 
+)
+
+03-18-2016 @ 08:07:03 - Received valid response from PayPal
+03-18-2016 @ 08:07:03 - Payment IPN Array: Array
+(
+    [mc_gross] => 250.00
+    [protection_eligibility] => Ineligible
+    [payer_id] => QMXTTAPXDZRG2
+    [tax] => 0.00
+    [payment_date] => 16:32:21 Mar 15, 2016 PDT
+    [payment_status] => Completed
+    [charset] => windows-1252
+    [first_name] => Mark
+    [mc_fee] => 5.00
+    [notify_version] => 3.8
+    [echeck_time_processed] => 05:06:59 Mar 18, 2016 PDT
+    [custom] => 
+    [payer_status] => verified
+    [business] => contact@invernesscalvary.com
+    [quantity] => 0
+    [verify_sign] => AVFvrroR9BL.LnjR2eCD8c9ZR3asA-mIFGCpuQWEPG1Y1q2TMH3jCmTJ
+    [payer_email] => mactmc96@aol.com
+    [memo] => Nathan Lloyd Jones
+    [txn_id] => 2RM3259886254290U
+    [payment_type] => echeck
+    [last_name] => Cassidy
+    [receiver_email] => contact@invernesscalvary.com
+    [payment_fee] => 5.00
+    [receiver_id] => FHQ7X8KGRPVQU
+    [txn_type] => web_accept
+    [item_name] => MissionariesWithoutBoundaries
+    [mc_currency] => USD
+    [item_number] => Missionaries Without Boundaries
+    [residence_country] => US
+    [handling_amount] => 0.00
+    [transaction_subject] => 
+    [payment_gross] => 250.00
+    [shipping] => 0.00
+    [ipn_track_id] => ba49aed723dda
+)
+
+03-18-2016 @ 08:07:03 - Payment IPN_status: 1
+03-18-2016 @ 08:07:03 - Payment status: Completed
+03-18-2016 @ 08:07:03 - Payment transaction type: web_accept
+04-19-2016 @ 21:08:30 - IPN paypal_ipn_for_wordpress_ipn_forwarding_handler: Array
+(
+    [transaction_subject] => 
+    [payment_date] => 18:08:25 Apr 19, 2016 PDT
+    [txn_type] => web_accept
+    [last_name] => Cassidy
+    [residence_country] => US
+    [item_name] => MissionariesWithoutBoundaries
+    [payment_gross] => 100.00
+    [mc_currency] => USD
+    [business] => contact@invernesscalvary.com
+    [payment_type] => instant
+    [protection_eligibility] => Ineligible
+    [verify_sign] => ArKm1RsA6VRS9RzGONxk4mMkYDfUAfRDHsvADVIPfwBauQYFgo-v7S8A
+    [payer_status] => verified
+    [tax] => 0.00
+    [payer_email] => mactmc96@aol.com
+    [txn_id] => 1S9969454K924072W
+    [quantity] => 0
+    [receiver_email] => contact@invernesscalvary.com
+    [first_name] => Mark
+    [payer_id] => QMXTTAPXDZRG2
+    [receiver_id] => FHQ7X8KGRPVQU
+    [memo] => Nathan and Rebecca Lloyd Jones
+    [item_number] => Missionaries Without Boundaries
+    [payment_status] => Completed
+    [payment_fee] => 2.50
+    [mc_fee] => 2.50
+    [mc_gross] => 100.00
+    [custom] => 
+    [charset] => windows-1252
+    [notify_version] => 3.8
+    [ipn_track_id] => ae72f9ec950a2
+)
+
+04-19-2016 @ 21:08:30 - Checking IPN response is valid via https://www.paypal.com/cgi-bin/webscr...
+04-19-2016 @ 21:08:30 - IPN Request: Array
+(
+    [body] => Array
+        (
+            [cmd] => _notify-validate
+            [transaction_subject] => 
+            [payment_date] => 18:08:25 Apr 19, 2016 PDT
+            [txn_type] => web_accept
+            [last_name] => Cassidy
+            [residence_country] => US
+            [item_name] => MissionariesWithoutBoundaries
+            [payment_gross] => 100.00
+            [mc_currency] => USD
+            [business] => contact@invernesscalvary.com
+            [payment_type] => instant
+            [protection_eligibility] => Ineligible
+            [verify_sign] => ArKm1RsA6VRS9RzGONxk4mMkYDfUAfRDHsvADVIPfwBauQYFgo-v7S8A
+            [payer_status] => verified
+            [tax] => 0.00
+            [payer_email] => mactmc96@aol.com
+            [txn_id] => 1S9969454K924072W
+            [quantity] => 0
+            [receiver_email] => contact@invernesscalvary.com
+            [first_name] => Mark
+            [payer_id] => QMXTTAPXDZRG2
+            [receiver_id] => FHQ7X8KGRPVQU
+            [memo] => Nathan and Rebecca Lloyd Jones
+            [item_number] => Missionaries Without Boundaries
+            [payment_status] => Completed
+            [payment_fee] => 2.50
+            [mc_fee] => 2.50
+            [mc_gross] => 100.00
+            [custom] => 
+            [charset] => windows-1252
+            [notify_version] => 3.8
+            [ipn_track_id] => ae72f9ec950a2
+        )
+
+    [sslverify] => 
+    [timeout] => 60
+    [httpversion] => 1.0.0
+    [compress] => 
+    [decompress] => 
+    [user-agent] => paypal-ipn/
+)
+
+04-19-2016 @ 21:08:30 - IPN Response: Array
+(
+    [headers] => Array
+        (
+            [server] => Apache
+            [x-frame-options] => SAMEORIGIN
+            [paypal-debug-id] => 2c7e73f86d174
+            [cache-control] => max-age=0, no-cache, no-store, must-revalidate
+            [pragma] => no-cache
+            [content-type] => text/html; charset=UTF-8
+            [dc] => phx-origin-www-2.paypal.com
+            [date] => Wed, 20 Apr 2016 01:08:30 GMT
+            [content-length] => 8
+            [connection] => close
+            [set-cookie] => Array
+                (
+                    [0] => cwrClyrK4LoCV1fydGbAxiNL6iG=5KAMH9oO5Z9ZQZCFAde9jkEDGsamjNCJZzZgLY71gvg-pj_0GboRNrYCVOTe4dHdHIWXBSihim4oO58LK0BIEmJBPICIpR9Gb1aG0ee6cSm5w5skkW_OYHFle1f5JblcuU0xVl1pQdnFe7oy_pUkz63jiYcWkZaqNI6eq32s6c32A5AbHsk5q8WPhhF2T23ZWuZeVhDQQwWrmwJYQJXrN2KIH6arW1CdR0gpmQjcDN9Zz5CPi1UGJexKfdTDYTyv8di8h9Oa1U1ZQlCGlZ00HdCD1VUrYGCxqslR3OnegZvwJsSVVO9LT4Xs0bidmQZqx_Un_huPPCXqTmE38Ya1Z7wlC4ecGJlbOvPQ6mw5_Aczljn9OX2JJ5Gun_uzzZ8X4ymzPwEZd7XgWTjwea8nFyE48IvOUXnvsKp6caeHc6KNjS47T-e86D2AOta; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [1] => cookie_check=yes; expires=Sat, 18-Apr-2026 01:08:30 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [2] => navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [3] => navlns=0.0; expires=Fri, 20-Apr-2018 01:08:30 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [4] => X-PP-SILOVER=name%3DLIVE3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D2396395095%26HTTP_X_PP_AZ_LOCATOR%3D; Expires=Wed, 20 Apr 2016 01:38:30 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [5] => X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+                    [6] => Apache=10.190.9.200.1461114510446683; path=/; expires=Fri, 13-Apr-46 01:08:30 GMT
+                    [7] => AKDC=phx-origin-www-2.paypal.com; expires=Wed, 20-Apr-2016 01:38:30 GMT; path=/; secure
+                )
+
+            [strict-transport-security] => max-age=63072000
+        )
+
+    [body] => VERIFIED
+    [response] => Array
+        (
+            [code] => 200
+            [message] => OK
+        )
+
+    [cookies] => Array
+        (
+            [0] => WP_Http_Cookie Object
+                (
+                    [name] => cwrClyrK4LoCV1fydGbAxiNL6iG
+                    [value] => 5KAMH9oO5Z9ZQZCFAde9jkEDGsamjNCJZzZgLY71gvg-pj_0GboRNrYCVOTe4dHdHIWXBSihim4oO58LK0BIEmJBPICIpR9Gb1aG0ee6cSm5w5skkW_OYHFle1f5JblcuU0xVl1pQdnFe7oy_pUkz63jiYcWkZaqNI6eq32s6c32A5AbHsk5q8WPhhF2T23ZWuZeVhDQQwWrmwJYQJXrN2KIH6arW1CdR0gpmQjcDN9Zz5CPi1UGJexKfdTDYTyv8di8h9Oa1U1ZQlCGlZ00HdCD1VUrYGCxqslR3OnegZvwJsSVVO9LT4Xs0bidmQZqx_Un_huPPCXqTmE38Ya1Z7wlC4ecGJlbOvPQ6mw5_Aczljn9OX2JJ5Gun_uzzZ8X4ymzPwEZd7XgWTjwea8nFyE48IvOUXnvsKp6caeHc6KNjS47T-e86D2AOta
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [1] => WP_Http_Cookie Object
+                (
+                    [name] => cookie_check
+                    [value] => yes
+                    [expires] => 1776474510
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [2] => WP_Http_Cookie Object
+                (
+                    [name] => navcmd
+                    [value] => _notify-validate
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [3] => WP_Http_Cookie Object
+                (
+                    [name] => navlns
+                    [value] => 0.0
+                    [expires] => 1524186510
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [4] => WP_Http_Cookie Object
+                (
+                    [name] => X-PP-SILOVER
+                    [value] => name=LIVE3.WEB.1&silo_version=880&app=appdispatcher&TIME=2396395095&HTTP_X_PP_AZ_LOCATOR=
+                    [expires] => 1461116310
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [5] => WP_Http_Cookie Object
+                (
+                    [name] => X-PP-SILOVER
+                    [value] => 
+                    [expires] => 1
+                    [path] => /cgi-bin/
+                    [domain] => www.paypal.com
+                )
+
+            [6] => WP_Http_Cookie Object
+                (
+                    [name] => Apache
+                    [value] => 10.190.9.200.1461114510446683
+                    [expires] => 2407194510
+                    [path] => /
+                    [domain] => www.paypal.com
+                )
+
+            [7] => WP_Http_Cookie Object
+                (
+                    [name] => AKDC
+                    [value] => phx-origin-www-2.paypal.com
+                    [expires] => 1461116310
+                    [path] => /
+                    [domain] => www.paypal.com
+                    [secure] => 
+                )
+
+        )
+
+    [filename] => 
+)
+
+04-19-2016 @ 21:08:30 - Received valid response from PayPal
+04-19-2016 @ 21:08:30 - Payment IPN Array: Array
+(
+    [transaction_subject] => 
+    [payment_date] => 18:08:25 Apr 19, 2016 PDT
+    [txn_type] => web_accept
+    [last_name] => Cassidy
+    [residence_country] => US
+    [item_name] => MissionariesWithoutBoundaries
+    [payment_gross] => 100.00
+    [mc_currency] => USD
+    [business] => contact@invernesscalvary.com
+    [payment_type] => instant
+    [protection_eligibility] => Ineligible
+    [verify_sign] => ArKm1RsA6VRS9RzGONxk4mMkYDfUAfRDHsvADVIPfwBauQYFgo-v7S8A
+    [payer_status] => verified
+    [tax] => 0.00
+    [payer_email] => mactmc96@aol.com
+    [txn_id] => 1S9969454K924072W
+    [quantity] => 0
+    [receiver_email] => contact@invernesscalvary.com
+    [first_name] => Mark
+    [payer_id] => QMXTTAPXDZRG2
+    [receiver_id] => FHQ7X8KGRPVQU
+    [memo] => Nathan and Rebecca Lloyd Jones
+    [item_number] => Missionaries Without Boundaries
+    [payment_status] => Completed
+    [payment_fee] => 2.50
+    [mc_fee] => 2.50
+    [mc_gross] => 100.00
+    [custom] => 
+    [charset] => windows-1252
+    [notify_version] => 3.8
+    [ipn_track_id] => ae72f9ec950a2
+)
+
+04-19-2016 @ 21:08:30 - Payment IPN_status: 1
+04-19-2016 @ 21:08:30 - Payment status: Completed
+04-19-2016 @ 21:08:30 - Payment transaction type: web_accept
+05-17-2016 @ 06:48:33 - IPN paypal_ipn_for_wordpress_ipn_forwarding_handler: Array
+(
+    [mc_gross] => 100.00
+    [protection_eligibility] => Eligible
+    [address_status] => unconfirmed
+    [payer_id] => S23L7FSE6Q5EE
+    [tax] => 0.00
+    [address_street] => 810 Stately Oaks Dr.
+    [payment_date] => 03:48:28 May 17, 2016 PDT
+    [payment_status] => Completed
+    [charset] => windows-1252
+    [address_zip] => 34453
+    [first_name] => Tina
+    [mc_fee] => 2.50
+    [address_country_code] => US
+    [address_name] => Tina Cassidy
+    [notify_version] => 3.8
+    [custom] => 
+    [payer_status] => unverified
+    [business] => contact@invernesscalvary.com
+    [address_country] => United States
+    [address_city] => Inverness
+    [quantity] => 0
+    [verify_sign] => Ay3wLi4f6LmaNTkkjlLRqVbVlDnIAB4nfq5P5dwIHEW7JlbsNHVW3K-L
+    [payer_email] => mactmc96@aol.com
+    [memo] => Nathan Lloyd Jones
+    [txn_id] => 6LW48360EB446102W
+    [payment_type] => instant
+    [last_name] => Cassidy
+    [address_state] => FL
+    [receiver_email] => contact@invernesscalvary.com
+    [payment_fee] => 2.50
+    [receiver_id] => FHQ7X8KGRPVQU
+    [txn_type] => web_accept
+    [item_name] => MissionariesWithoutBoundaries
+    [mc_currency] => USD
+    [item_number] => Missionaries Without Boundaries
+    [residence_country] => US
+    [receipt_id] => 1945-9792-0419-2935
+    [transaction_subject] => 
+    [payment_gross] => 100.00
+    [ipn_track_id] => 69c301e57a60
+)
+
+05-17-2016 @ 06:48:33 - Checking IPN response is valid via https://www.paypal.com/cgi-bin/webscr...
+05-17-2016 @ 06:48:33 - IPN Request: Array
+(
+    [body] => Array
+        (
+            [cmd] => _notify-validate
+            [mc_gross] => 100.00
+            [protection_eligibility] => Eligible
+            [address_status] => unconfirmed
+            [payer_id] => S23L7FSE6Q5EE
+            [tax] => 0.00
+            [address_street] => 810 Stately Oaks Dr.
+            [payment_date] => 03:48:28 May 17, 2016 PDT
+            [payment_status] => Completed
+            [charset] => windows-1252
+            [address_zip] => 34453
+            [first_name] => Tina
+            [mc_fee] => 2.50
+            [address_country_code] => US
+            [address_name] => Tina Cassidy
+            [notify_version] => 3.8
+            [custom] => 
+            [payer_status] => unverified
+            [business] => contact@invernesscalvary.com
+            [address_country] => United States
+            [address_city] => Inverness
+            [quantity] => 0
+            [verify_sign] => Ay3wLi4f6LmaNTkkjlLRqVbVlDnIAB4nfq5P5dwIHEW7JlbsNHVW3K-L
+            [payer_email] => mactmc96@aol.com
+            [memo] => Nathan Lloyd Jones
+            [txn_id] => 6LW48360EB446102W
+            [payment_type] => instant
+            [last_name] => Cassidy
+            [address_state] => FL
+            [receiver_email] => contact@invernesscalvary.com
+            [payment_fee] => 2.50
+            [receiver_id] => FHQ7X8KGRPVQU
+            [txn_type] => web_accept
+            [item_name] => MissionariesWithoutBoundaries
+            [mc_currency] => USD
+            [item_number] => Missionaries Without Boundaries
+            [residence_country] => US
+            [receipt_id] => 1945-9792-0419-2935
+            [transaction_subject] => 
+            [payment_gross] => 100.00
+            [ipn_track_id] => 69c301e57a60
+        )
+
+    [sslverify] => 
+    [timeout] => 60
+    [httpversion] => 1.0.0
+    [compress] => 
+    [decompress] => 
+    [user-agent] => paypal-ipn/
+)
+
+05-17-2016 @ 06:48:36 - IPN Response: Array
+(
+    [headers] => Array
+        (
+            [server] => Apache
+            [x-frame-options] => SAMEORIGIN
+            [cache-control] => Array
+                (
+                    [0] => max-age=0, no-cache, no-store, must-revalidate
+                    [1] => max-age=0, no-cache, no-store, must-revalidate
+                )
+
+            [pragma] => Array
+                (
+                    [0] => no-cache
+                    [1] => no-cache
+                )
+
+            [paypal-debug-id] => 87a6cbb3a3214
+            [content-type] => text/html; charset=UTF-8
+            [dc] => phx-origin-www-1.paypal.com
+            [date] => Tue, 17 May 2016 10:48:36 GMT
+            [content-length] => 8
+            [connection] => close
+            [set-cookie] => Array
+                (
+                    [0] => cwrClyrK4LoCV1fydGbAxiNL6iG=PGtJr1NlQERbwSJWfepM9tlFfM7HVHKTi3s8v5Zh_e-XvWbfUTeQDV0o2tXtpx2gmWAmI6TPZHsQLDgTTM-sozbsUVRwjaI397KIrML5QjkFXaVE-RJQ1Z61v-KUNvvx13crzBQEf10SVhOjhPZkD9gyeIzUghWwyn51JJt2HOv0KA-EuSCIrThjKQXsArQjkzOAlkR02mlXiC4CTLlt1zd3548W-nWw02ikpch-j-hJhjKmFvcom8mZ83zKkYfkGUEOCb447RUAvSFAiwE6esGf4iHuagzHcG3TujnuEhItLhwD4nk99I92oUGLoSYm5RBo_qlbrpPoJGGs5fZpckZOjvJGGNF0OAIZxTomJVshz6X0R9vlnXT9sDvzwRj2JvbfTxa18QJ2qKe1VD9VNkMIDF9MCxRcSUOt83_ev90M-tHB4aYdr1ZJ884; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [1] => cookie_check=yes; expires=Fri, 15-May-2026 10:48:36 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [2] => navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [3] => navlns=0.0; expires=Thu, 17-May-2018 10:48:36 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [4] => X-PP-SILOVER=name%3DLIVE3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D66533975%26HTTP_X_PP_AZ_LOCATOR%3D; Expires=Tue, 17 May 2016 11:18:36 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [5] => X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+                    [6] => Apache=10.190.8.151.1463482115668003; path=/; expires=Thu, 10-May-46 10:48:35 GMT
+                    [7] => AKDC=phx-origin-www-1.paypal.com; expires=Tue, 17-May-2016 11:18:36 GMT; path=/; secure
+                )
+
+            [strict-transport-security] => max-age=63072000
+        )
+
+    [body] => VERIFIED
+    [response] => Array
+        (
+            [code] => 200
+            [message] => OK
+        )
+
+    [cookies] => Array
+        (
+            [0] => WP_Http_Cookie Object
+                (
+                    [name] => cwrClyrK4LoCV1fydGbAxiNL6iG
+                    [value] => PGtJr1NlQERbwSJWfepM9tlFfM7HVHKTi3s8v5Zh_e-XvWbfUTeQDV0o2tXtpx2gmWAmI6TPZHsQLDgTTM-sozbsUVRwjaI397KIrML5QjkFXaVE-RJQ1Z61v-KUNvvx13crzBQEf10SVhOjhPZkD9gyeIzUghWwyn51JJt2HOv0KA-EuSCIrThjKQXsArQjkzOAlkR02mlXiC4CTLlt1zd3548W-nWw02ikpch-j-hJhjKmFvcom8mZ83zKkYfkGUEOCb447RUAvSFAiwE6esGf4iHuagzHcG3TujnuEhItLhwD4nk99I92oUGLoSYm5RBo_qlbrpPoJGGs5fZpckZOjvJGGNF0OAIZxTomJVshz6X0R9vlnXT9sDvzwRj2JvbfTxa18QJ2qKe1VD9VNkMIDF9MCxRcSUOt83_ev90M-tHB4aYdr1ZJ884
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [1] => WP_Http_Cookie Object
+                (
+                    [name] => cookie_check
+                    [value] => yes
+                    [expires] => 1778842116
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [2] => WP_Http_Cookie Object
+                (
+                    [name] => navcmd
+                    [value] => _notify-validate
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [3] => WP_Http_Cookie Object
+                (
+                    [name] => navlns
+                    [value] => 0.0
+                    [expires] => 1526554116
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [4] => WP_Http_Cookie Object
+                (
+                    [name] => X-PP-SILOVER
+                    [value] => name=LIVE3.WEB.1&silo_version=880&app=appdispatcher&TIME=66533975&HTTP_X_PP_AZ_LOCATOR=
+                    [expires] => 1463483916
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [5] => WP_Http_Cookie Object
+                (
+                    [name] => X-PP-SILOVER
+                    [value] => 
+                    [expires] => 1
+                    [path] => /cgi-bin/
+                    [domain] => www.paypal.com
+                )
+
+            [6] => WP_Http_Cookie Object
+                (
+                    [name] => Apache
+                    [value] => 10.190.8.151.1463482115668003
+                    [expires] => 2409562115
+                    [path] => /
+                    [domain] => www.paypal.com
+                )
+
+            [7] => WP_Http_Cookie Object
+                (
+                    [name] => AKDC
+                    [value] => phx-origin-www-1.paypal.com
+                    [expires] => 1463483916
+                    [path] => /
+                    [domain] => www.paypal.com
+                    [secure] => 
+                )
+
+        )
+
+    [filename] => 
+)
+
+05-17-2016 @ 06:48:36 - Received valid response from PayPal
+05-17-2016 @ 06:48:36 - Payment IPN Array: Array
+(
+    [mc_gross] => 100.00
+    [protection_eligibility] => Eligible
+    [address_status] => unconfirmed
+    [payer_id] => S23L7FSE6Q5EE
+    [tax] => 0.00
+    [address_street] => 810 Stately Oaks Dr.
+    [payment_date] => 03:48:28 May 17, 2016 PDT
+    [payment_status] => Completed
+    [charset] => windows-1252
+    [address_zip] => 34453
+    [first_name] => Tina
+    [mc_fee] => 2.50
+    [address_country_code] => US
+    [address_name] => Tina Cassidy
+    [notify_version] => 3.8
+    [custom] => 
+    [payer_status] => unverified
+    [business] => contact@invernesscalvary.com
+    [address_country] => United States
+    [address_city] => Inverness
+    [quantity] => 0
+    [verify_sign] => Ay3wLi4f6LmaNTkkjlLRqVbVlDnIAB4nfq5P5dwIHEW7JlbsNHVW3K-L
+    [payer_email] => mactmc96@aol.com
+    [memo] => Nathan Lloyd Jones
+    [txn_id] => 6LW48360EB446102W
+    [payment_type] => instant
+    [last_name] => Cassidy
+    [address_state] => FL
+    [receiver_email] => contact@invernesscalvary.com
+    [payment_fee] => 2.50
+    [receiver_id] => FHQ7X8KGRPVQU
+    [txn_type] => web_accept
+    [item_name] => MissionariesWithoutBoundaries
+    [mc_currency] => USD
+    [item_number] => Missionaries Without Boundaries
+    [residence_country] => US
+    [receipt_id] => 1945-9792-0419-2935
+    [transaction_subject] => 
+    [payment_gross] => 100.00
+    [ipn_track_id] => 69c301e57a60
+)
+
+05-17-2016 @ 06:48:36 - Payment IPN_status: 1
+05-17-2016 @ 06:48:36 - Payment status: Completed
+05-17-2016 @ 06:48:36 - Payment transaction type: web_accept
+06-14-2016 @ 10:56:19 - IPN paypal_ipn_for_wordpress_ipn_forwarding_handler: Array
+(
+    [mc_gross] => 100.00
+    [protection_eligibility] => Eligible
+    [address_status] => unconfirmed
+    [payer_id] => S23L7FSE6Q5EE
+    [tax] => 0.00
+    [address_street] => 810 Stately Oaks Dr.
+`
+    [payment_date] => 07:56:15 Jun 14, 2016 PDT
+    [payment_status] => Completed
+    [charset] => windows-1252
+    [address_zip] => 34453
+    [first_name] => Mark
+    [mc_fee] => 2.50
+    [address_country_code] => US
+    [address_name] => Mark Cassidy
+    [notify_version] => 3.8
+    [custom] => 
+    [payer_status] => unverified
+    [business] => contact@invernesscalvary.com
+    [address_country] => United States
+    [address_city] => Inverness
+    [quantity] => 0
+    [verify_sign] => AkBezA742JXefy3.CqZeGMWuR29lA6K7tH9YyLu7Xn6SHW9sdFzq5iQK
+    [payer_email] => mactmc96@aol.com
+    [memo] => Nathan Lloyd Jones
+    [txn_id] => 3ET703187C759672T
+    [payment_type] => instant
+    [last_name] => Cassidy
+    [address_state] => FL
+    [receiver_email] => contact@invernesscalvary.com
+    [payment_fee] => 2.50
+    [receiver_id] => FHQ7X8KGRPVQU
+    [txn_type] => web_accept
+    [item_name] => MissionariesWithoutBoundaries
+    [mc_currency] => USD
+    [item_number] => Missionaries Without Boundaries
+    [residence_country] => US
+    [receipt_id] => 1397-7152-5785-0687
+    [transaction_subject] => 
+    [payment_gross] => 100.00
+    [ipn_track_id] => 19ca6e9ae45a4
+)
+
+06-14-2016 @ 10:56:19 - Checking IPN response is valid via https://www.paypal.com/cgi-bin/webscr...
+06-14-2016 @ 10:56:19 - IPN Request: Array
+(
+    [body] => Array
+        (
+            [cmd] => _notify-validate
+            [mc_gross] => 100.00
+            [protection_eligibility] => Eligible
+            [address_status] => unconfirmed
+            [payer_id] => S23L7FSE6Q5EE
+            [tax] => 0.00
+            [address_street] => 810 Stately Oaks Dr.
+`
+            [payment_date] => 07:56:15 Jun 14, 2016 PDT
+            [payment_status] => Completed
+            [charset] => windows-1252
+            [address_zip] => 34453
+            [first_name] => Mark
+            [mc_fee] => 2.50
+            [address_country_code] => US
+            [address_name] => Mark Cassidy
+            [notify_version] => 3.8
+            [custom] => 
+            [payer_status] => unverified
+            [business] => contact@invernesscalvary.com
+            [address_country] => United States
+            [address_city] => Inverness
+            [quantity] => 0
+            [verify_sign] => AkBezA742JXefy3.CqZeGMWuR29lA6K7tH9YyLu7Xn6SHW9sdFzq5iQK
+            [payer_email] => mactmc96@aol.com
+            [memo] => Nathan Lloyd Jones
+            [txn_id] => 3ET703187C759672T
+            [payment_type] => instant
+            [last_name] => Cassidy
+            [address_state] => FL
+            [receiver_email] => contact@invernesscalvary.com
+            [payment_fee] => 2.50
+            [receiver_id] => FHQ7X8KGRPVQU
+            [txn_type] => web_accept
+            [item_name] => MissionariesWithoutBoundaries
+            [mc_currency] => USD
+            [item_number] => Missionaries Without Boundaries
+            [residence_country] => US
+            [receipt_id] => 1397-7152-5785-0687
+            [transaction_subject] => 
+            [payment_gross] => 100.00
+            [ipn_track_id] => 19ca6e9ae45a4
+        )
+
+    [sslverify] => 
+    [timeout] => 60
+    [httpversion] => 1.0.0
+    [compress] => 
+    [decompress] => 
+    [user-agent] => paypal-ipn/
+)
+
+06-14-2016 @ 10:56:21 - IPN Response: Array
+(
+    [headers] => Array
+        (
+            [server] => Apache
+            [x-frame-options] => SAMEORIGIN
+            [paypal-debug-id] => d66a75aecde9
+            [cache-control] => max-age=0, no-cache, no-store, must-revalidate
+            [pragma] => no-cache
+            [content-type] => text/html; charset=UTF-8
+            [dc] => phx-origin-www-1.paypal.com
+            [date] => Tue, 14 Jun 2016 14:56:20 GMT
+            [content-length] => 8
+            [connection] => close
+            [set-cookie] => Array
+                (
+                    [0] => cwrClyrK4LoCV1fydGbAxiNL6iG=8NrczExVzG6IQqHWOKIEAG3uU0K_jAUU8gMNFSCcmdZvsLjX0wo5IIriZZd2VficLtRvpGyVkHGnd8tGQAgAKqvDcApRXVseLKRLvtM-5J2gCLt6mhqqtuZ8MLIUzFpvJRJF0Lo2pMFnYfA70wYx-vnFUzhhnEZk_RBmtuCmLgTxQRdvDeGCnlRnkTJ_XuugL2k9L5DBmi-htSLumQvcZtsFRdu3UvK0CY4UDFHIz1sRY1tsbXhzrGD8N7wu0s_OArkhA6Q6k90R0dGN0gZcokASqBJVXVqH9qeXKrjttLizI_XFURqw2aq7v34owuQUo5PDXCqXaIxzMBRB8uMihrI3cFw4UzHoiL4e_0aPWXDSWrOVQmA3LGB8wvqK7dPF9wyu9ixFtTLPzUAW1AQ8NfInmZQ5ofHxgYZKz8r_-iV4YdpnN-nT-OgW2Km; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [1] => cookie_check=yes; expires=Fri, 12-Jun-2026 14:56:20 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [2] => navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [3] => navlns=0.0; expires=Thu, 14-Jun-2018 14:56:20 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [4] => X-PP-SILOVER=name%3DLIVE3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D337338455%26HTTP_X_PP_AZ_LOCATOR%3D; Expires=Tue, 14 Jun 2016 15:26:20 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [5] => X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+                    [6] => Apache=10.190.8.157.1465916180052531; path=/; expires=Thu, 07-Jun-46 14:56:20 GMT
+                    [7] => AKDC=phx-origin-www-1.paypal.com; expires=Tue, 14-Jun-2016 15:26:20 GMT; path=/; secure
+                )
+
+            [strict-transport-security] => max-age=63072000
+        )
+
+    [body] => VERIFIED
+    [response] => Array
+        (
+            [code] => 200
+            [message] => OK
+        )
+
+    [cookies] => Array
+        (
+            [0] => WP_Http_Cookie Object
+                (
+                    [name] => cwrClyrK4LoCV1fydGbAxiNL6iG
+                    [value] => 8NrczExVzG6IQqHWOKIEAG3uU0K_jAUU8gMNFSCcmdZvsLjX0wo5IIriZZd2VficLtRvpGyVkHGnd8tGQAgAKqvDcApRXVseLKRLvtM-5J2gCLt6mhqqtuZ8MLIUzFpvJRJF0Lo2pMFnYfA70wYx-vnFUzhhnEZk_RBmtuCmLgTxQRdvDeGCnlRnkTJ_XuugL2k9L5DBmi-htSLumQvcZtsFRdu3UvK0CY4UDFHIz1sRY1tsbXhzrGD8N7wu0s_OArkhA6Q6k90R0dGN0gZcokASqBJVXVqH9qeXKrjttLizI_XFURqw2aq7v34owuQUo5PDXCqXaIxzMBRB8uMihrI3cFw4UzHoiL4e_0aPWXDSWrOVQmA3LGB8wvqK7dPF9wyu9ixFtTLPzUAW1AQ8NfInmZQ5ofHxgYZKz8r_-iV4YdpnN-nT-OgW2Km
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [1] => WP_Http_Cookie Object
+                (
+                    [name] => cookie_check
+                    [value] => yes
+                    [expires] => 1781276180
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [2] => WP_Http_Cookie Object
+                (
+                    [name] => navcmd
+                    [value] => _notify-validate
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [3] => WP_Http_Cookie Object
+                (
+                    [name] => navlns
+                    [value] => 0.0
+                    [expires] => 1528988180
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [4] => WP_Http_Cookie Object
+                (
+                    [name] => X-PP-SILOVER
+                    [value] => name=LIVE3.WEB.1&silo_version=880&app=appdispatcher&TIME=337338455&HTTP_X_PP_AZ_LOCATOR=
+                    [expires] => 1465917980
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [5] => WP_Http_Cookie Object
+                (
+                    [name] => X-PP-SILOVER
+                    [value] => 
+                    [expires] => 1
+                    [path] => /cgi-bin/
+                    [domain] => www.paypal.com
+                )
+
+            [6] => WP_Http_Cookie Object
+                (
+                    [name] => Apache
+                    [value] => 10.190.8.157.1465916180052531
+                    [expires] => 2411996180
+                    [path] => /
+                    [domain] => www.paypal.com
+                )
+
+            [7] => WP_Http_Cookie Object
+                (
+                    [name] => AKDC
+                    [value] => phx-origin-www-1.paypal.com
+                    [expires] => 1465917980
+                    [path] => /
+                    [domain] => www.paypal.com
+                    [secure] => 
+                )
+
+        )
+
+    [filename] => 
+)
+
+06-14-2016 @ 10:56:21 - Received valid response from PayPal
+06-14-2016 @ 10:56:21 - Payment IPN Array: Array
+(
+    [mc_gross] => 100.00
+    [protection_eligibility] => Eligible
+    [address_status] => unconfirmed
+    [payer_id] => S23L7FSE6Q5EE
+    [tax] => 0.00
+    [address_street] => 810 Stately Oaks Dr.
+`
+    [payment_date] => 07:56:15 Jun 14, 2016 PDT
+    [payment_status] => Completed
+    [charset] => windows-1252
+    [address_zip] => 34453
+    [first_name] => Mark
+    [mc_fee] => 2.50
+    [address_country_code] => US
+    [address_name] => Mark Cassidy
+    [notify_version] => 3.8
+    [custom] => 
+    [payer_status] => unverified
+    [business] => contact@invernesscalvary.com
+    [address_country] => United States
+    [address_city] => Inverness
+    [quantity] => 0
+    [verify_sign] => AkBezA742JXefy3.CqZeGMWuR29lA6K7tH9YyLu7Xn6SHW9sdFzq5iQK
+    [payer_email] => mactmc96@aol.com
+    [memo] => Nathan Lloyd Jones
+    [txn_id] => 3ET703187C759672T
+    [payment_type] => instant
+    [last_name] => Cassidy
+    [address_state] => FL
+    [receiver_email] => contact@invernesscalvary.com
+    [payment_fee] => 2.50
+    [receiver_id] => FHQ7X8KGRPVQU
+    [txn_type] => web_accept
+    [item_name] => MissionariesWithoutBoundaries
+    [mc_currency] => USD
+    [item_number] => Missionaries Without Boundaries
+    [residence_country] => US
+    [receipt_id] => 1397-7152-5785-0687
+    [transaction_subject] => 
+    [payment_gross] => 100.00
+    [ipn_track_id] => 19ca6e9ae45a4
+)
+
+06-14-2016 @ 10:56:21 - Payment IPN_status: 1
+06-14-2016 @ 10:56:21 - Payment status: Completed
+06-14-2016 @ 10:56:21 - Payment transaction type: web_accept
+09-24-2016 @ 13:39:36 - IPN paypal_ipn_for_wordpress_ipn_forwarding_handler: Array
+(
+    [mc_gross] => 100.00
+    [protection_eligibility] => Eligible
+    [address_status] => unconfirmed
+    [payer_id] => S23L7FSE6Q5EE
+    [tax] => 0.00
+    [address_street] => 810 Stately Oaks
+    [payment_date] => 10:39:33 Sep 24, 2016 PDT
+    [payment_status] => Completed
+    [charset] => windows-1252
+    [address_zip] => 34453
+    [first_name] => Mark
+    [mc_fee] => 2.50
+    [address_country_code] => US
+    [address_name] => Mark Cassidy
+    [notify_version] => 3.8
+    [custom] => 
+    [payer_status] => unverified
+    [business] => contact@invernesscalvary.com
+    [address_country] => United States
+    [address_city] => Inverness
+    [quantity] => 0
+    [verify_sign] => AzOFybi90UTGWbF7nvsGIspWJbt1A1QrpwTXjX-3d9x9s82cop4v92bi
+    [payer_email] => mactmc96@aol.com
+    [memo] => Nathan and Rebecca
+    [txn_id] => 9YP89269D3169225T
+    [payment_type] => instant
+    [last_name] => Cassidy
+    [address_state] => FL
+    [receiver_email] => contact@invernesscalvary.com
+    [payment_fee] => 2.50
+    [receiver_id] => FHQ7X8KGRPVQU
+    [txn_type] => web_accept
+    [item_name] => MissionariesWithoutBoundaries
+    [mc_currency] => USD
+    [item_number] => Missionaries Without Boundaries
+    [residence_country] => US
+    [receipt_id] => 5300-9898-6595-5900
+    [transaction_subject] => 
+    [payment_gross] => 100.00
+    [ipn_track_id] => 6f69766aa0a3
+)
+
+09-24-2016 @ 13:39:36 - Checking IPN response is valid via https://www.paypal.com/cgi-bin/webscr...
+09-24-2016 @ 13:39:36 - IPN Request: Array
+(
+    [body] => Array
+        (
+            [cmd] => _notify-validate
+            [mc_gross] => 100.00
+            [protection_eligibility] => Eligible
+            [address_status] => unconfirmed
+            [payer_id] => S23L7FSE6Q5EE
+            [tax] => 0.00
+            [address_street] => 810 Stately Oaks
+            [payment_date] => 10:39:33 Sep 24, 2016 PDT
+            [payment_status] => Completed
+            [charset] => windows-1252
+            [address_zip] => 34453
+            [first_name] => Mark
+            [mc_fee] => 2.50
+            [address_country_code] => US
+            [address_name] => Mark Cassidy
+            [notify_version] => 3.8
+            [custom] => 
+            [payer_status] => unverified
+            [business] => contact@invernesscalvary.com
+            [address_country] => United States
+            [address_city] => Inverness
+            [quantity] => 0
+            [verify_sign] => AzOFybi90UTGWbF7nvsGIspWJbt1A1QrpwTXjX-3d9x9s82cop4v92bi
+            [payer_email] => mactmc96@aol.com
+            [memo] => Nathan and Rebecca
+            [txn_id] => 9YP89269D3169225T
+            [payment_type] => instant
+            [last_name] => Cassidy
+            [address_state] => FL
+            [receiver_email] => contact@invernesscalvary.com
+            [payment_fee] => 2.50
+            [receiver_id] => FHQ7X8KGRPVQU
+            [txn_type] => web_accept
+            [item_name] => MissionariesWithoutBoundaries
+            [mc_currency] => USD
+            [item_number] => Missionaries Without Boundaries
+            [residence_country] => US
+            [receipt_id] => 5300-9898-6595-5900
+            [transaction_subject] => 
+            [payment_gross] => 100.00
+            [ipn_track_id] => 6f69766aa0a3
+        )
+
+    [sslverify] => 
+    [timeout] => 60
+    [httpversion] => 1.0.0
+    [compress] => 
+    [decompress] => 
+    [user-agent] => paypal-ipn/
+)
+
+09-24-2016 @ 13:39:38 - IPN Response: Array
+(
+    [headers] => Array
+        (
+            [server] => Apache
+            [x-frame-options] => SAMEORIGIN
+            [cache-control] => Array
+                (
+                    [0] => max-age=0, no-cache, no-store, must-revalidate
+                    [1] => max-age=0, no-cache, no-store, must-revalidate
+                )
+
+            [pragma] => Array
+                (
+                    [0] => no-cache
+                    [1] => no-cache
+                )
+
+            [http_x_pp_az_locator] => slcb.slc
+            [paypal-debug-id] => fe31b04b83828
+            [content-type] => text/html; charset=UTF-8
+            [dc] => phx-origin-www-2.paypal.com
+            [date] => Sat, 24 Sep 2016 17:39:38 GMT
+            [content-length] => 8
+            [connection] => close
+            [set-cookie] => Array
+                (
+                    [0] => cwrClyrK4LoCV1fydGbAxiNL6iG=HSHgnwoLjTjenbcw_zC-Kv6Z2JQaj_NCEFZ5-pRsAQQAu7sczE6Cw431Qvx9tycbv9rD5bmavj7gmiLeg5BhvLTHSmd3Q9gwStnvf99U_8wbnmy7wHgJbk_A-QuIzVgX3Ak2KIzF0bpx9zfjAaRRSAlvcK2wYNOGPehmjXuHub6oNPHTcwXRSf5fkruKu1X-fmR-MdSvQkjGTBVuh_kYbr5Jhn6YpjX5PvNHjGsVwuIHqWfD5o6tx0gVqeLGYZA1tv1TMfTdhnTyj00ORJu43ieK8slkTzWUFALVXHdx_Ru5S2ISUJqmk54-7qr3h14uJgp5F8ztZPaCjWc2_q9VS9Bh7xMFxjJfpC3XDj3WlSPdjmoeKvj5GVr-hOYQdCmwmeiyzxvcX5la6AH02n_w2RgI4MVSa6JxH03OiAEG1I5pp_Es7_-nEUcpQv8; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [1] => cookie_check=yes; expires=Tue, 22-Sep-2026 17:39:37 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [2] => navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [3] => navlns=0.0; expires=Mon, 24-Sep-2018 17:39:37 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [4] => X-PP-SILOVER=name%3DLIVE3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D1505420887%26HTTP_X_PP_AZ_LOCATOR%3Dslcb.slc; Expires=Sat, 24 Sep 2016 18:09:37 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [5] => X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+                    [6] => AKDC=phx-origin-www-2.paypal.com; expires=Sat, 24-Sep-2016 18:09:38 GMT; path=/; secure
+                )
+
+            [strict-transport-security] => max-age=63072000
+        )
+
+    [body] => VERIFIED
+    [response] => Array
+        (
+            [code] => 200
+            [message] => OK
+        )
+
+    [cookies] => Array
+        (
+            [0] => WP_Http_Cookie Object
+                (
+                    [name] => cwrClyrK4LoCV1fydGbAxiNL6iG
+                    [value] => HSHgnwoLjTjenbcw_zC-Kv6Z2JQaj_NCEFZ5-pRsAQQAu7sczE6Cw431Qvx9tycbv9rD5bmavj7gmiLeg5BhvLTHSmd3Q9gwStnvf99U_8wbnmy7wHgJbk_A-QuIzVgX3Ak2KIzF0bpx9zfjAaRRSAlvcK2wYNOGPehmjXuHub6oNPHTcwXRSf5fkruKu1X-fmR-MdSvQkjGTBVuh_kYbr5Jhn6YpjX5PvNHjGsVwuIHqWfD5o6tx0gVqeLGYZA1tv1TMfTdhnTyj00ORJu43ieK8slkTzWUFALVXHdx_Ru5S2ISUJqmk54-7qr3h14uJgp5F8ztZPaCjWc2_q9VS9Bh7xMFxjJfpC3XDj3WlSPdjmoeKvj5GVr-hOYQdCmwmeiyzxvcX5la6AH02n_w2RgI4MVSa6JxH03OiAEG1I5pp_Es7_-nEUcpQv8
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [1] => WP_Http_Cookie Object
+                (
+                    [name] => cookie_check
+                    [value] => yes
+                    [expires] => 1790098777
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [2] => WP_Http_Cookie Object
+                (
+                    [name] => navcmd
+                    [value] => _notify-validate
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [3] => WP_Http_Cookie Object
+                (
+                    [name] => navlns
+                    [value] => 0.0
+                    [expires] => 1537810777
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [4] => WP_Http_Cookie Object
+                (
+                    [name] => X-PP-SILOVER
+                    [value] => name=LIVE3.WEB.1&silo_version=880&app=appdispatcher&TIME=1505420887&HTTP_X_PP_AZ_LOCATOR=slcb.slc
+                    [expires] => 1474740577
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [5] => WP_Http_Cookie Object
+                (
+                    [name] => X-PP-SILOVER
+                    [value] => 
+                    [expires] => 1
+                    [path] => /cgi-bin/
+                    [domain] => www.paypal.com
+                )
+
+            [6] => WP_Http_Cookie Object
+                (
+                    [name] => AKDC
+                    [value] => phx-origin-www-2.paypal.com
+                    [expires] => 1474740578
+                    [path] => /
+                    [domain] => www.paypal.com
+                    [secure] => 
+                )
+
+        )
+
+    [filename] => 
+)
+
+09-24-2016 @ 13:39:38 - Received valid response from PayPal
+09-24-2016 @ 13:39:38 - Payment IPN Array: Array
+(
+    [mc_gross] => 100.00
+    [protection_eligibility] => Eligible
+    [address_status] => unconfirmed
+    [payer_id] => S23L7FSE6Q5EE
+    [tax] => 0.00
+    [address_street] => 810 Stately Oaks
+    [payment_date] => 10:39:33 Sep 24, 2016 PDT
+    [payment_status] => Completed
+    [charset] => windows-1252
+    [address_zip] => 34453
+    [first_name] => Mark
+    [mc_fee] => 2.50
+    [address_country_code] => US
+    [address_name] => Mark Cassidy
+    [notify_version] => 3.8
+    [custom] => 
+    [payer_status] => unverified
+    [business] => contact@invernesscalvary.com
+    [address_country] => United States
+    [address_city] => Inverness
+    [quantity] => 0
+    [verify_sign] => AzOFybi90UTGWbF7nvsGIspWJbt1A1QrpwTXjX-3d9x9s82cop4v92bi
+    [payer_email] => mactmc96@aol.com
+    [memo] => Nathan and Rebecca
+    [txn_id] => 9YP89269D3169225T
+    [payment_type] => instant
+    [last_name] => Cassidy
+    [address_state] => FL
+    [receiver_email] => contact@invernesscalvary.com
+    [payment_fee] => 2.50
+    [receiver_id] => FHQ7X8KGRPVQU
+    [txn_type] => web_accept
+    [item_name] => MissionariesWithoutBoundaries
+    [mc_currency] => USD
+    [item_number] => Missionaries Without Boundaries
+    [residence_country] => US
+    [receipt_id] => 5300-9898-6595-5900
+    [transaction_subject] => 
+    [payment_gross] => 100.00
+    [ipn_track_id] => 6f69766aa0a3
+)
+
+09-24-2016 @ 13:39:38 - Payment IPN_status: 1
+09-24-2016 @ 13:39:38 - Payment status: Completed
+09-24-2016 @ 13:39:38 - Payment transaction type: web_accept

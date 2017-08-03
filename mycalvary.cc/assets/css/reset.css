@@ -1,0 +1,132 @@
+/* Reset */
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, img, ins, kbd, q, samp, small, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ded6c3;
+	margin: 1.3em 0;
+	padding: 0;
+}
+input, select {
+	vertical-align: middle;
+}
+body {
+	font:16px/25px 'chaparral-pro', sans-serif; *font-size:small;
+	color:#3d3631;
+}
+select, input, textarea, button {
+	font:99% sans-serif;
+}
+pre, code, kbd, samp {
+	font-family: monospace, sans-serif;
+}
+a, a:hover, a:active {
+	outline: none;
+}
+sub, sup {
+	font-size: 50%;
+	line-height: 0;
+	position: relative;
+}
+sup {
+	top: -0.9em;
+}
+aside sup {
+	font-size: 100%;
+	top: -0.1em;
+	margin-right: 2px;
+}
+sub {
+	bottom: -0.25em;
+}
+pre {
+	white-space: pre;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+	padding: 15px;
+}
+textarea {
+	overflow: auto;
+}
+input[type="radio"] {
+	vertical-align: text-bottom;
+}
+input[type="checkbox"] {
+	vertical-align: bottom;
+}
+label, input[type="button"], input[type="submit"], input[type="image"], button {
+	cursor: pointer;
+}
+button, input, select, textarea {
+	margin: 0;
+}
+input:valid, textarea:valid   {  }
+input:invalid, textarea:invalid {
+   border-radius: 1px;
+   -moz-box-shadow: 0px 0px 5px red;
+   -webkit-box-shadow: 0px 0px 5px red;
+   box-shadow: 0px 0px 5px red;
+}
+a:link {
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+button {
+	width: auto;
+	overflow: visible;
+}
+.ie7 img {
+	-ms-interpolation-mode: bicubic;
+}
+select, input, textarea {
+	color: #333;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 400;
+	margin: 0;
+	padding: 0;
+}
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+	color: #1a7bad;
+}
+.nm {
+	margin: 0 !important;
+}
+.cl {
+	clear: left;
+}
+.no-bg {
+	background: none !important;
+}
+
+/* Clearfix */
+.clearfix:after {
+	clear: both;
+	content: ' ';
+	display: block;
+	font-size: 0;
+	line-height: 0;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+* html .clearfix{
+	height: 1%;
+}

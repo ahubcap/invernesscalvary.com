@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension>
+	<name>S5 Accordion Menu</name>
+	<author>Shape5.com - modified from Joomla! Project menu</author>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>contact@shape5.com</authorEmail>
+	<authorUrl>www.shape5.com</authorUrl>
+	<description>Displays an accordion style menu.</description>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="parentlinks" type="radio" default="1" label="Enable or Disable First Level Parent Hyperlinks?">
+					<option value="0">Disable</option>
+					<option value="1">Enable</option>
+				</field>
+				<field name="endLevel" type="list" default="0" label="Maximum Depth">
+					<option value="0">Show All</option>
+					<option value="1">Main Items Only</option>
+					<option value="2">1 Sub-Level</option>
+					<option value="3">2 Sub-Levels</option>
+					<option value="4">3 Sub-Levels</option>
+					<option value="5">4 Sub-Levels</option>
+					<option value="6">5 Sub-Levels</option>
+					<option value="7">6 Sub-Levels</option>
+					<option value="8">7 Sub-Levels</option>
+					<option value="9">8 Sub-Levels</option>
+					<option value="10">9 Sub-Levels</option>
+					<option value="11">10 Sub-Levels</option>
+					<option value="12">11 Sub-Levels</option>
+					<option value="13">12 Sub-Levels</option>
+					<option value="14">13 Sub-Levels</option>
+					<option value="15">14 Sub-Levels</option>
+					<option value="16">15 Sub-Levels</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>
